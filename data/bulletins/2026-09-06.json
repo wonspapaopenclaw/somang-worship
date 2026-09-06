@@ -1,0 +1,289 @@
+{
+  "issueDate": "2026-09-06",
+  "bulletinNumber": 2556,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=186879&pageid=1&action=kboard_file_download&kboard-file-download-nonce=e26c159e52&file=file1",
+  "page": 1,
+  "services": [
+    {
+      "name": "주일예배",
+      "times": [
+        "07:30",
+        "09:30",
+        "11:30",
+        "13:30",
+        "15:30"
+      ],
+      "leader": "김경진 목사",
+      "order": [
+        {
+          "label": "예배로 부름",
+          "participant": "인도자"
+        },
+        {
+          "label": "송영",
+          "participant": "찬양대"
+        },
+        {
+          "label": "기도",
+          "participant": "인도자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 28,
+            "title": "복의 근원 강림하사",
+            "image": "assets/hymns/028.jpg",
+            "verifiedTitle": "복의 근원 강림하사",
+            "verificationStatus": "MATCH"
+          },
+          "participant": "일어서서"
+        },
+        {
+          "label": "참회기도",
+          "participant": "다같이"
+        },
+        {
+          "label": "사죄확인",
+          "participant": "인도자"
+        },
+        {
+          "label": "신앙고백",
+          "name": "사도신경",
+          "participant": "다같이"
+        },
+        {
+          "label": "성시교독",
+          "number": 79,
+          "reference": "요한복음 15장",
+          "reading": {
+            "lines": [
+              {
+                "speaker": "leader",
+                "text": "나는 포도나무요 너희는 가지라 그가 내 안에, 내가 그 안에 거하면"
+              },
+              {
+                "speaker": "congregation",
+                "text": "사람이 열매를 많이 맺나니 나를 떠나서는 너희가 아무 것도 할 수 없음이라"
+              },
+              {
+                "speaker": "leader",
+                "text": "사람이 내 안에 거하지 아니하면 가지처럼 밖에 버려져 마르나니"
+              },
+              {
+                "speaker": "congregation",
+                "text": "사람들이 그것을 모아다가 불에 던져 사르느니라"
+              },
+              {
+                "speaker": "leader",
+                "text": "너희가 내 안에 거하고 내 말이 너희 안에 거하면 무엇이든지 원하는 대로 구하라"
+              },
+              {
+                "speaker": "congregation",
+                "text": "그리하면 이루리라"
+              },
+              {
+                "speaker": "leader",
+                "text": "너희가 열매를 많이 맺으면 내 아버지께서 영광을 받으실 것이요"
+              },
+              {
+                "speaker": "congregation",
+                "text": "너희는 내 제자가 되리라"
+              },
+              {
+                "speaker": "leader",
+                "text": "아버지께서 나를 사랑하신 것 같이 나도 너희를 사랑하였으니"
+              },
+              {
+                "speaker": "congregation",
+                "text": "나의 사랑 안에 거하라"
+              },
+              {
+                "speaker": "leader",
+                "text": "내가 아버지의 계명을 지켜 그의 사랑 안에 거하는 것 같이"
+              },
+              {
+                "speaker": "congregation",
+                "text": "너희도 내 계명을 지키면 내 사랑 안에 거하리라"
+              },
+              {
+                "speaker": "all",
+                "text": "내가 이것을 너희에게 이름은 내 기쁨이 너희 안에 있어 너희 기쁨을 충만하게 하려 함이라"
+              }
+            ],
+            "number": 79,
+            "reference": "5-11",
+            "title": "요한복음 15장"
+          },
+          "participant": "앉아서"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 254,
+            "title": "내 주의 보혈은",
+            "image": "assets/hymns/254.jpg",
+            "verifiedTitle": "내 주의 보혈은",
+            "verificationStatus": "MISMATCH"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "기도",
+          "participants": "이영민·이우식·김규태 장로·조지훈 목사·소재범 대학부 부감"
+        },
+        {
+          "label": "성경봉독",
+          "reference": "누가복음 7:40-43, 47-50",
+          "verses": [
+            {
+              "reference": "눅 7:40",
+              "book": "눅",
+              "chapter": 7,
+              "verse": 40,
+              "content": "예수께서 대답하여 이르시되 시몬아 내가 네게 이를 말이 있다 하시니 그가 이르되 선생님 말씀하소서"
+            },
+            {
+              "reference": "눅 7:41",
+              "book": "눅",
+              "chapter": 7,
+              "verse": 41,
+              "content": "이르시되 빚 주는 사람에게 빚진 자가 둘이 있어 하나는 오백 데나리온을 졌고 하나는 오십 데나리온을 졌는데"
+            },
+            {
+              "reference": "눅 7:42",
+              "book": "눅",
+              "chapter": 7,
+              "verse": 42,
+              "content": "갚을 것이 없으므로 둘 다 탕감하여 주었으니 둘 중에 누가 그를 더 사랑하겠느냐"
+            },
+            {
+              "reference": "눅 7:43",
+              "book": "눅",
+              "chapter": 7,
+              "verse": 43,
+              "content": "시몬이 대답하여 이르되 내 생각에는 많이 탕감함을 받은 자니이다 이르시되 네 판단이 옳다 하시고"
+            },
+            {
+              "reference": "눅 7:47",
+              "book": "눅",
+              "chapter": 7,
+              "verse": 47,
+              "content": "이러므로 내가 네게 말하노니 그의 많은 죄가 사하여졌도다 이는 그의 사랑함이 많음이라 사함을 받은 일이 적은 자는 적게 사랑하느니라"
+            },
+            {
+              "reference": "눅 7:48",
+              "book": "눅",
+              "chapter": 7,
+              "verse": 48,
+              "content": "이에 여자에게 이르시되 네 죄 사함을 받았느니라 하시니"
+            },
+            {
+              "reference": "눅 7:49",
+              "book": "눅",
+              "chapter": 7,
+              "verse": 49,
+              "content": "함께 앉아 있는 자들이 속으로 말하되 이가 누구이기에 죄도 사하는가 하더라"
+            },
+            {
+              "reference": "눅 7:50",
+              "book": "눅",
+              "chapter": 7,
+              "verse": 50,
+              "content": "예수께서 여자에게 이르시되 네 믿음이 너를 구원하였으니 평안히 가라 하시니라"
+            }
+          ],
+          "participant": "인도자"
+        },
+        {
+          "label": "찬양",
+          "items": [
+            "주님은 포도나무 - 김신웅",
+            "예수 이름 높이세 - 최덕신",
+            "넉넉히 이기느니라 - Mark Hayes",
+            "주 은혜 놀라와 - Arr. Roger C. Wilson",
+            "Jubilate Deo - 이호준"
+          ],
+          "participant": "베다니"
+        },
+        {
+          "label": "말씀",
+          "title": "평안히 가라",
+          "preacher": "김경진 목사"
+        },
+        {
+          "label": "기도",
+          "participant": "설교자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 412,
+            "title": "내 영혼의 그윽히 깊은데서",
+            "image": "assets/hymns/412.jpg",
+            "verifiedTitle": "내 영혼의 그윽히 깊은데서",
+            "verificationStatus": "MISMATCH"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "헌금",
+          "hymn": {
+            "number": 630,
+            "title": "진리와 생명 되신 주",
+            "image": "assets/hymns/630.jpg",
+            "verifiedTitle": "진리와 생명 되신 주",
+            "verificationStatus": "MISMATCH"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "헌금기도",
+          "participant": "인도자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 289,
+            "title": "주 예수 내 맘에 들어와",
+            "image": "assets/hymns/289.jpg",
+            "verifiedTitle": "주 예수 내 맘에 들어와",
+            "verificationStatus": "MISMATCH"
+          },
+          "note": "끝절은 일어서서",
+          "participant": "다같이"
+        },
+        {
+          "label": "축도",
+          "participant": "설교자"
+        },
+        {
+          "label": "송영",
+          "participant": "찬양대"
+        }
+      ],
+      "timeOverrides": {
+        "07:30": {
+          "prayer": "이영민",
+          "praise": ["주님은 포도나무 - 김신웅", "베다니"]
+        },
+        "09:30": {
+          "prayer": "이우식",
+          "praise": ["예수 이름 높이세 - 최덕신", "호산나"]
+        },
+        "11:30": {
+          "prayer": "김규태 장로",
+          "praise": ["넉넉히 이기느니라 - Mark Hayes", "시온"]
+        },
+        "13:30": {
+          "prayer": "조지훈 목사",
+          "praise": ["주 은혜 놀라와 - Arr. Roger C. Wilson", "할렐루야"]
+        },
+        "15:30": {
+          "prayer": "소재범 대학부 부감",
+          "praise": ["Jubilate Deo - 이호준", "에벤에셀"]
+        }
+      }
+    }
+  ],
+  "nextWeekPrayer": "문호주 목사·황성규·김영기·김환익 장로·이석호 대학부 부감"
+}
