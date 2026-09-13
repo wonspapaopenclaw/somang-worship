@@ -18,6 +18,14 @@
         <button id="font-toggle" class="icon-button" type="button" aria-pressed="false">큰 글씨</button>
       </header>
 
+      <section class="bulletin-picker" aria-labelledby="bulletin-picker-heading">
+        <label for="bulletin-select">
+          <span id="bulletin-picker-heading" class="picker-label">주보 날짜</span>
+          <select id="bulletin-select" aria-describedby="bulletin-picker-status"></select>
+        </label>
+        <p id="bulletin-picker-status" class="muted">이번 주 주보를 선택했습니다.</p>
+      </section>
+
       <section class="time-panel" aria-labelledby="time-heading">
         <div class="section-heading">
           <div>
@@ -32,7 +40,7 @@
       <section id="worship-order" class="order-list" aria-live="polite"></section>
 
       <footer class="footer">
-        <p>자료 기준: 2026년 9월 13일 소망교회 주보 1페이지</p>
+        <p>자료 기준: 선택한 소망교회 주보 1페이지</p>
         <a id="source-link" href="#" target="_blank" rel="noreferrer">원문 주보 열기</a>
       </footer>
     </main>

@@ -1,13 +1,34 @@
-const DATA_URL = "./data/latest.json";
-const state = { data: null, selectedTime: null, openHymns: new Set(), openReadings: new Set(), openScriptures: new Set() };
+const BULLETIN_INDEX_URL = "./data/bulletins/index.json";
+const state = { data: null, bulletins: [], selectedDate: null, selectedTime: null, openHymns: new Set(), openReadings: new Set(), openScriptures: new Set() };
 
 const $ = (selector) => document.querySelector(selector);
 
 async function loadData() {
-  const response = await fetch(DATA_URL);
+  const indexResponse = await fetch(BULLETIN_INDEX_URL);
+  if (!indexResponse.ok) throw new Error(`주보 목록을 불러오지 못했습니다: ${indexResponse.status}`);
+  state.bulletins = await indexResponse.json();
+  const requestedDate = new URLSearchParams(window.location.search).get("date");
+  const now = new Date();
+  const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+  const selected = state.bulletins.find((bulletin) => bulletin.date === requestedDate)
+    || state.bulletins.find((bulletin) => bulletin.date === today)
+    || state.bulletins.find((bulletin) => bulletin.date < today)
+    || state.bulletins[0];
+  await selectBulletin(selected.date, false);
+}
+
+async function selectBulletin(date, updateUrl = true) {
+  const bulletin = state.bulletins.find((item) => item.date === date);
+  if (!bulletin) return;
+  const response = await fetch(`./data/bulletins/${bulletin.file}`);
   if (!response.ok) throw new Error(`주보 데이터를 불러오지 못했습니다: ${response.status}`);
   state.data = await response.json();
+  state.selectedDate = bulletin.date;
   state.selectedTime = state.data.services[0].times[0];
+  state.openHymns.clear();
+  state.openReadings.clear();
+  state.openScriptures.clear();
+  if (updateUrl) history.replaceState(null, "", `?date=${encodeURIComponent(bulletin.date)}`);
   render();
 }
 
@@ -17,6 +38,10 @@ function escapeHtml(value = "") {
 
 function render() {
   const service = state.data.services[0];
+  const bulletinSelect = $("#bulletin-select");
+  bulletinSelect.innerHTML = state.bulletins.map((bulletin) => `<option value="${escapeHtml(bulletin.date)}" ${bulletin.date === state.selectedDate ? "selected" : ""}>${escapeHtml(bulletin.label)}</option>`).join("");
+  bulletinSelect.onchange = () => selectBulletin(bulletinSelect.value).catch(showError);
+  $("#bulletin-picker-status").textContent = `${state.data.issueDate} · 주보 ${state.data.bulletinNumber}호를 보고 있습니다.`;
   $("#issue-label").textContent = `${state.data.issueDate} · 주보 ${state.data.bulletinNumber}호`;
   $("#source-link").href = state.data.sourcePdf;
   $("#time-tabs").innerHTML = service.times.map((time) => `
@@ -39,15 +64,21 @@ function render() {
   }));
 }
 
+function showError(error) {
+  $("#worship-order").innerHTML = `<section class="order-card"><h2>주보를 불러오지 못했습니다.</h2><p class="muted">${escapeHtml(error.message)}</p></section>`;
+}
+
 function renderOrderItem(item, index, overrides) {
   const participant = item.participants ? "기도자" : (item.label === "찬양" ? "찬양대" : (item.participant || ""));
   let detail = "";
   if (item.hymn) {
     const open = state.openHymns.has(index);
-    detail = `<button class="expand-button hymn-button" type="button" data-expand="hymn" data-index="${index}">${item.hymn.number}장 · ${escapeHtml(item.hymn.title)} ${open ? "▲" : "▼"}</button>${item.note ? `<p class="muted">${escapeHtml(item.note)}</p>` : ""}${open ? `<img class="hymn-image" src="./${item.hymn.image}" alt="찬송가 ${item.hymn.number}장 악보" />` : ""}`;
+    const hymnImage = open && item.hymn.image ? `<img class="hymn-image" src="./${item.hymn.image}" alt="찬송가 ${item.hymn.number}장 악보" />` : "";
+    detail = `<button class="expand-button hymn-button" type="button" data-expand="hymn" data-index="${index}">${item.hymn.number}장 · ${escapeHtml(item.hymn.title)} ${open ? "▲" : "▼"}</button>${item.note ? `<p class="muted">${escapeHtml(item.note)}</p>` : ""}${hymnImage}`;
   } else if (item.label === "성경봉독") {
+    const scripture = overrides.scripture || item;
     const open = state.openScriptures.has(index);
-    detail = `<button class="expand-button scripture-button" type="button" data-expand="scripture" data-index="${index}">${escapeHtml(item.reference)} ${open ? "▲" : "▼"}</button>${open ? `<div class="scripture">${item.verses.map((verse) => `<p class="verse"><span class="verse-number">${verse.verse}</span>${escapeHtml(verse.content)}</p>`).join("")}</div>` : ""}`;
+    detail = `<button class="expand-button scripture-button" type="button" data-expand="scripture" data-index="${index}">${escapeHtml(scripture.reference)} ${open ? "▲" : "▼"}</button>${open ? `<div class="scripture">${scripture.verses.map((verse) => `<p class="verse"><span class="verse-number">${verse.verse}</span>${escapeHtml(verse.content)}</p>`).join("")}</div>` : ""}`;
   } else if (item.label === "성시교독") {
     const open = state.openReadings.has(index);
     detail = `<button class="expand-button reading-button" type="button" data-expand="reading" data-index="${index}">교독문 ${item.number} · ${escapeHtml(item.reference)} ${open ? "▲" : "▼"}</button>${open ? `<div class="reading-lines">${item.reading.lines.map((line) => `<div class="reading-line ${line.speaker}"><span class="speaker">${speakerLabel(line.speaker)}</span>${escapeHtml(line.text)}</div>`).join("")}</div>` : ""}`;
@@ -56,7 +87,8 @@ function renderOrderItem(item, index, overrides) {
     detail = `<div class="detail">${praise.map((value) => `<div>${escapeHtml(value)}</div>`).join("")}</div>`;
     detail += `<p class="muted">${escapeHtml(overrides.praise?.[1] || item.participant || "")}</p>`;
   } else if (item.title) {
-    detail = `<div class="detail"><strong>${escapeHtml(item.title)}</strong>${item.preacher ? `<span class="muted"> · ${escapeHtml(item.preacher)}</span>` : ""}</div>`;
+    const message = overrides.message || item;
+    detail = `<div class="detail"><strong>${escapeHtml(message.title)}</strong>${message.preacher ? `<span class="muted"> · ${escapeHtml(message.preacher)}</span>` : ""}</div>`;
   } else if (item.name) {
     detail = `<div class="detail">${escapeHtml(item.name)}</div>`;
   } else if (item.participants) {
@@ -74,6 +106,4 @@ $("#font-toggle").addEventListener("click", () => {
   $("#font-toggle").setAttribute("aria-pressed", String(enabled));
 });
 
-loadData().catch((error) => {
-  $("#worship-order").innerHTML = `<section class="order-card"><h2>주보를 불러오지 못했습니다.</h2><p class="muted">${escapeHtml(error.message)}</p></section>`;
-});
+loadData().catch(showError);

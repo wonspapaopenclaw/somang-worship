@@ -1,0 +1,43 @@
+{
+  "issueDate": "2026-08-30",
+  "bulletinNumber": 2555,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=186859&pageid=1&action=kboard_file_download&kboard-file-download-nonce=a362048a6e&file=file1",
+  "page": 1,
+  "services": [
+    {
+      "name": "주일예배",
+      "times": ["07:30", "09:30", "11:30", "13:30", "15:30"],
+      "leader": "인도자",
+      "order": [
+        {"label": "예배로 부름", "participant": "인도자"},
+        {"label": "송영", "participant": "찬양대"},
+        {"label": "기도", "participant": "인도자"},
+        {"label": "찬송", "hymn": {"number": 20, "title": "큰 영광 중에 계신 주", "image": "assets/hymns/020.jpg", "verifiedTitle": "큰 영광 중에 계신 주", "verificationStatus": "MATCH"}, "participant": "일어서서"},
+        {"label": "참회기도", "participant": "다같이"},
+        {"label": "사죄확인", "participant": "인도자"},
+        {"label": "신앙고백", "name": "사도신경", "participant": "다같이"},
+        {"label": "성시교독", "number": 78, "reference": "요한복음 14장", "reading": {"lines": [{"speaker": "leader", "text": "너희는 마음에 근심하지 말라 하나님을 믿으니 또 나를 믿으라"}, {"speaker": "congregation", "text": "내 아버지 집에 거할 곳이 많도다 그렇지 않으면 너희에게 일렀으리라"}, {"speaker": "leader", "text": "내가 너희를 위하여 거처를 예비하러 가노니"}, {"speaker": "congregation", "text": "가서 너희를 위하여 거처를 예비하면 내가 다시 와서 너희를 내게로 영접하여"}, {"speaker": "leader", "text": "나 있는 곳에 너희도 있게 하리라"}, {"speaker": "congregation", "text": "내가 어디로 가는지 그 길을 너희가 아느니라"}, {"speaker": "leader", "text": "도마가 이르되 주여 주께서 어디로 가시는지 우리가 알지 못하거늘 그 길을 어찌 알겠사옵나이까"}, {"speaker": "congregation", "text": "예수께서 이르시되 내가 곧 길이요 진리요 생명이니"}, {"speaker": "leader", "text": "나로 말미암지 않고는 아버지께로 올 자가 없느니라"}, {"speaker": "congregation", "text": "너희가 나를 알았더라면 내 아버지도 알았으리로다"}, {"speaker": "leader", "text": "이제부터는 너희가 그를 알았고 또 보았느니라"}, {"speaker": "congregation", "text": "빌립이 이르되 주여 아버지를 우리에게 보여 주옵소서 그리하면 족하겠나이다"}, {"speaker": "leader", "text": "예수께서 이르시되 빌립아 내가 이렇게 오래 너희와 함께 있으되 네가 나를 알지 못하느냐"}, {"speaker": "congregation", "text": "나를 본 자는 아버지를 보았거늘 어찌하여 아버지를 보이라 하느냐"}, {"speaker": "leader", "text": "내가 아버지 안에 거하고 아버지는 내 안에 계신 것을 네가 믿지 아니하느냐"}, {"speaker": "congregation", "text": "내가 너희에게 이르는 말은 스스로 하는 것이 아니라 아버지께서 내 안에 계셔서 그의 일을 하시는 것이라"}, {"speaker": "all", "text": "내가 아버지 안에 거하고 아버지께서 내 안에 계심을 믿으라 그렇지 못하겠거든 행하는 그 일로 말미암아 나를 믿으라"}], "number": 78, "reference": "1-11", "title": "요한복음 14장"}, "participant": "앉아서"},
+        {"label": "찬송", "hymn": {"number": 79, "title": "주 하나님 지으신 모든 세계", "image": "assets/hymns/079.jpg", "verifiedTitle": "주 하나님 지으신 모든 세계", "verificationStatus": "MATCH"}, "participant": "다같이"},
+        {"label": "기도", "participants": "김문자·송근준 장로·심상현 목사·한 정 장로·반준우 Bridge3040 부감"},
+        {"label": "성경봉독", "reference": "창세기 1:1-2, 마태복음 11:16-19", "verses": [{"reference": "창 1:1", "book": "창", "chapter": 1, "verse": 1, "content": "태초에 하나님이 천지를 창조하시니라"}, {"reference": "창 1:2", "book": "창", "chapter": 1, "verse": 2, "content": "땅이 혼돈하고 공허하며 흑암이 깊음 위에 있고 하나님의 영은 수면 위에 운행하시니라"}, {"reference": "마 11:16", "book": "마", "chapter": 11, "verse": 16, "content": "이 세대를 무엇으로 비유할까 비유하면 아이들이 장터에 앉아 제 동무를 불러"}, {"reference": "마 11:17", "book": "마", "chapter": 11, "verse": 17, "content": "이르되 우리가 너희를 향하여 피리를 불어도 너희가 춤추지 않고 우리가 슬피 울어도 너희가 가슴을 치지 아니하였다 함과 같도다"}, {"reference": "마 11:18", "book": "마", "chapter": 11, "verse": 18, "content": "요한이 와서 먹지도 않고 마시지도 아니하매 그들이 말하기를 귀신이 들렸다 하더니"}, {"reference": "마 11:19", "book": "마", "chapter": 11, "verse": 19, "content": "인자는 와서 먹고 마시매 말하기를 보라 먹기를 탐하고 포도주를 즐기는 사람이요 세리와 죄인의 친구로다 하니 지혜는 그 행한 일로 인하여 옳다 함을 얻느니라"}], "participant": "인도자"},
+        {"label": "찬양", "items": ["노래로 하나님께 찬양 - L. V. Beethoven", "넉넉히 이기느니라 - Mark Hayes", "나의 모든 것 아시는 주님 - 조혜영", "전능왕 오셔서 - Arr. Ira B. Wilson", "주님의 바람 - 서경환"], "participant": "찬양대"},
+        {"label": "말씀", "title": "세상을 품으시는 하나님", "preacher": "김경진 목사"},
+        {"label": "기도", "participant": "설교자"},
+        {"label": "찬송", "hymn": {"number": 294, "title": "하나님은 외아들을", "image": "assets/hymns/294.jpg", "verifiedTitle": "하나님은 외아들을", "verificationStatus": "MATCH"}, "participant": "다같이"},
+        {"label": "헌금", "hymn": {"number": 630, "title": "진리와 생명 되신 주", "image": "assets/hymns/630.jpg", "verifiedTitle": "진리와 생명 되신 주", "verificationStatus": "MATCH"}, "participant": "다같이"},
+        {"label": "헌금기도", "participant": "인도자"},
+        {"label": "찬송", "hymn": {"number": 505, "title": "온 세상 위하여", "image": "assets/hymns/505.jpg", "verifiedTitle": "온 세상 위하여", "verificationStatus": "MATCH"}, "note": "끝절은 일어서서", "participant": "다같이"},
+        {"label": "축도", "participant": "설교자"},
+        {"label": "송영", "participant": "찬양대"}
+      ],
+      "timeOverrides": {
+        "07:30": {"prayer": "김문자", "praise": ["노래로 하나님께 찬양 - L. V. Beethoven", "베다니"]},
+        "09:30": {"prayer": "송근준 장로", "praise": ["넉넉히 이기느니라 - Mark Hayes", "호산나"]},
+        "11:30": {"prayer": "심상현 목사", "praise": ["나의 모든 것 아시는 주님 - 조혜영", "시온"]},
+        "13:30": {"prayer": "한 정 장로", "praise": ["전능왕 오셔서 - Arr. Ira B. Wilson", "할렐루야"]},
+        "15:30": {"prayer": "반준우 Bridge3040 부감", "praise": ["주님의 바람 - 서경환", "에벤에셀"], "message": {"title": "세상을 덮는 목자의 품", "preacher": "심상현 목사"}, "scripture": {"reference": "창세기 1:1-2, 이사야 40:9-11", "verses": [{"reference": "창 1:1", "book": "창", "chapter": 1, "verse": 1, "content": "태초에 하나님이 천지를 창조하시니라"}, {"reference": "창 1:2", "book": "창", "chapter": 1, "verse": 2, "content": "땅이 혼돈하고 공허하며 흑암이 깊음 위에 있고 하나님의 영은 수면 위에 운행하시니라"}, {"reference": "사 40:9", "book": "사", "chapter": 40, "verse": 9, "content": "아름다운 소식을 시온에 전하는 자여 너는 높은 산에 오르라 아름다운 소식을 예루살렘에 전하는 자여 너는 힘써 소리를 높이라 두려워하지 말고 소리를 높여 유다의 성읍들에게 이르기를 너희의 하나님을 보라 하라"}, {"reference": "사 40:10", "book": "사", "chapter": 40, "verse": 10, "content": "보라 주 여호와께서 장차 강한 자로 임하실 것이요 친히 그의 팔로 다스리실 것이라 보라 상급이 그에게 있고 보응이 그의 앞에 있으며"}, {"reference": "사 40:11", "book": "사", "chapter": 40, "verse": 11, "content": "그는 목자 같이 양 떼를 먹이시며 어린 양을 그 팔로 모아 품에 안으시며 젖먹이는 암컷들을 온순히 인도하시리로다"}]}}
+      }
+    }
+  ],
+  "nextWeekPrayer": "이영민·이우식·김규태 장로·조지훈 목사·소재범 대학부 부감"
+}
