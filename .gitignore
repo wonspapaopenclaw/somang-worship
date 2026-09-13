@@ -1,0 +1,21 @@
+# 로컬 개발/테스트용 파일 (배포 불필요)
+register_task.ps1
+register_task_fixed.ps1
+test_update.py
+
+# 임시 파일
+temp_*.pdf
+temp_*.png
+*.log
+
+# OS/에디터
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
