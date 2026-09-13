@@ -1,0 +1,43 @@
+{
+  "issueDate": "2026-08-23",
+  "bulletinNumber": 1236,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=186813&pageid=1&action=kboard_file_download&kboard-file-download-nonce=ced5a4c11e&file=file1",
+  "page": 1,
+  "services": [
+    {
+      "name": "주일예배",
+      "times": ["07:30", "09:30", "11:30", "13:30", "15:30"],
+      "leader": "김경진 목사",
+      "order": [
+        {"label": "예배로 부름", "participant": "인도자"},
+        {"label": "송영", "participant": "찬양대"},
+        {"label": "기도", "participant": "인도자"},
+        {"label": "찬송", "hymn": {"number": 22, "title": "", "image": "", "verifiedTitle": "", "verificationStatus": "MISSING"}, "participant": "일어서서"},
+        {"label": "참회기도", "participant": "다같이"},
+        {"label": "사죄확인", "participant": "인도자"},
+        {"label": "신앙고백", "name": "사도신경", "participant": "다같이"},
+        {"label": "성시교독", "number": 77, "reference": "요한복음 3장"},
+        {"label": "찬송", "hymn": {"number": 70, "title": "", "image": "", "verifiedTitle": "", "verificationStatus": "MISSING"}, "participant": "다같이"},
+        {"label": "기도", "participants": "박창훈 장로 · 공민구 목사 · 이범로 · 김명규 · 최병점 장로"},
+        {"label": "성경봉독", "reference": "열왕기하 19:14-19", "participant": "인도자"},
+        {"label": "찬양", "items": ["오 주여 이 종을 위로하소서", "구속자에게 드리는 찬미", "저 높은 곳을 향하여", "하나님의 세상을 사랑하사", "너를 빛삼아 제자로 뽑았으니"], "participant": "찬양대"},
+        {"label": "말씀", "title": "디르하가인가 하나님인가", "preacher": "김경진 목사", "participant": "설교자"},
+        {"label": "기도", "participant": "설교자"},
+        {"label": "찬송", "hymn": {"number": 365, "title": "", "image": "", "verifiedTitle": "", "verificationStatus": "MISSING"}, "participant": "다같이"},
+        {"label": "헌금", "hymn": {"number": 630, "title": "진리와 생명 되신 주", "image": "assets/hymns/630.jpg", "verifiedTitle": "진리와 생명 되신 주", "verificationStatus": "MATCH"}, "participant": "다같이"},
+        {"label": "헌금기도", "participant": "인도자"},
+        {"label": "찬송", "hymn": {"number": 384, "title": "", "image": "", "verifiedTitle": "", "verificationStatus": "MISSING"}, "participant": "다같이"},
+        {"label": "축도", "participant": "설교자"},
+        {"label": "송영", "participant": "찬양대"}
+      ],
+      "timeOverrides": {
+        "07:30": {"prayer": "박창훈 장로", "praise": ["오 주여 이 종을 위로하소서"]},
+        "09:30": {"prayer": "공민구 목사", "praise": ["구속자에게 드리는 찬미"]},
+        "11:30": {"prayer": "이범로", "praise": ["저 높은 곳을 향하여"]},
+        "13:30": {"prayer": "김명규", "praise": ["하나님의 세상을 사랑하사"]},
+        "15:30": {"prayer": "최병점 장로", "praise": ["너를 빛삼아 제자로 뽑았으니"]}
+      }
+    }
+  ],
+  "nextWeekPrayer": "김문자 · 송근준 장로 · 심성현 목사 · 한정 장로 · 반준우 Bridge3040 부장"
+}
