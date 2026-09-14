@@ -264,23 +264,38 @@
       "timeOverrides": {
         "07:30": {
           "prayer": "이영민",
-          "praise": ["주님은 포도나무 - 김신웅", "베다니"]
+          "praise": [
+            "주님은 포도나무 - 김신웅",
+            "베다니"
+          ]
         },
         "09:30": {
           "prayer": "이우식",
-          "praise": ["예수 이름 높이세 - 최덕신", "호산나"]
+          "praise": [
+            "예수 이름 높이세 - 최덕신",
+            "호산나"
+          ]
         },
         "11:30": {
           "prayer": "김규태 장로",
-          "praise": ["넉넉히 이기느니라 - Mark Hayes", "시온"]
+          "praise": [
+            "넉넉히 이기느니라 - Mark Hayes",
+            "시온"
+          ]
         },
         "13:30": {
           "prayer": "조지훈 목사",
-          "praise": ["주 은혜 놀라와 - Arr. Roger C. Wilson", "할렐루야"]
+          "praise": [
+            "주 은혜 놀라와 - Arr. Roger C. Wilson",
+            "할렐루야"
+          ]
         },
         "15:30": {
           "prayer": "소재범 대학부 부감",
-          "praise": ["Jubilate Deo - 이호준", "에벤에셀"]
+          "praise": [
+            "Jubilate Deo - 이호준",
+            "에벤에셀"
+          ]
         }
       }
     }
