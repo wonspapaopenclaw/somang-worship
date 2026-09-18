@@ -83,7 +83,7 @@ function renderOrderItem(item, index, overrides) {
     const praise = overrides.praise ? [overrides.praise[0]] : item.items;
     detail = `<div class="detail">${praise.map((value) => `<div>${escapeHtml(value)}</div>`).join("")}</div>`;
     detail += `<p class="muted">${escapeHtml(overrides.praise?.[1] || item.participant || "")}</p>`;
-  } else if (item.title) {
+  } else if (item.title || item.timeVariants) {
     const message = variantFor(item) || overrides.message || item;
     detail = `<div class="detail"><strong>${escapeHtml(message.title || "")}</strong>${message.preacher ? `<span class="muted"> · ${escapeHtml(message.preacher)}</span>` : ""}</div>`;
   } else if (item.name) {
