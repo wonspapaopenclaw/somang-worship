@@ -76,9 +76,11 @@ function renderOrderItem(item, index, overrides) {
     const hymnImage = open && item.hymn.image ? `<img class="hymn-image" src="./${item.hymn.image}" alt="찬송가 ${item.hymn.number}장 악보" />` : "";
     detail = `<button class="expand-button hymn-button" type="button" data-expand="hymn" data-index="${index}">${item.hymn.number}장 · ${escapeHtml(item.hymn.title)} ${open ? "▲" : "▼"}</button>${item.note ? `<p class="muted">${escapeHtml(item.note)}</p>` : ""}${hymnImage}`;
   } else if (item.label === "성경봉독") {
-    const scripture = overrides.scripture || item;
+    const scripture = variantFor(item) || overrides.scripture || item;
     const open = state.openScriptures.has(index);
-    detail = `<button class="expand-button scripture-button" type="button" data-expand="scripture" data-index="${index}">${escapeHtml(scripture.reference)} ${open ? "▲" : "▼"}</button>${open ? `<div class="scripture">${scripture.verses.map((verse) => `<p class="verse"><span class="verse-number">${verse.verse}</span>${escapeHtml(verse.content)}</p>`).join("")}</div>` : ""}`;
+    const verseCount = scripture.verses ? scripture.verses.length : 0;
+    const scriptureBody = open && verseCount ? `<div class="scripture">${scripture.verses.map((verse) => `<p class="verse"><span class="verse-number">${verse.verse}</span>${escapeHtml(verse.content)}</p>`).join("")}</div>` : (open && !verseCount ? `<p class="muted">본문 데이터가 없습니다.</p>` : "");
+    detail = `<button class="expand-button scripture-button" type="button" data-expand="scripture" data-index="${index}">${escapeHtml(scripture.reference || "")} (${verseCount}절) ${open ? "▲" : "▼"}</button>${scriptureBody}`;
   } else if (item.label === "성시교독") {
     const open = state.openReadings.has(index);
     detail = `<button class="expand-button reading-button" type="button" data-expand="reading" data-index="${index}">교독문 ${item.number} · ${escapeHtml(item.reference)} ${open ? "▲" : "▼"}</button>${open ? `<div class="reading-lines">${item.reading.lines.map((line) => `<div class="reading-line ${line.speaker}"><span class="speaker">${speakerLabel(line.speaker)}</span>${escapeHtml(line.text)}</div>`).join("")}</div>` : ""}`;
@@ -87,8 +89,8 @@ function renderOrderItem(item, index, overrides) {
     detail = `<div class="detail">${praise.map((value) => `<div>${escapeHtml(value)}</div>`).join("")}</div>`;
     detail += `<p class="muted">${escapeHtml(overrides.praise?.[1] || item.participant || "")}</p>`;
   } else if (item.title) {
-    const message = overrides.message || item;
-    detail = `<div class="detail"><strong>${escapeHtml(message.title)}</strong>${message.preacher ? `<span class="muted"> · ${escapeHtml(message.preacher)}</span>` : ""}</div>`;
+    const message = variantFor(item) || overrides.message || item;
+    detail = `<div class="detail"><strong>${escapeHtml(message.title || "")}</strong>${message.preacher ? `<span class="muted"> · ${escapeHtml(message.preacher)}</span>` : ""}</div>`;
   } else if (item.name) {
     detail = `<div class="detail">${escapeHtml(item.name)}</div>`;
   } else if (item.participants) {
@@ -99,6 +101,11 @@ function renderOrderItem(item, index, overrides) {
 
 function speakerLabel(speaker) {
   return { leader: "인도자", congregation: "회중", all: "다같이" }[speaker] || speaker;
+}
+
+function variantFor(item) {
+  if (!item.timeVariants || !item.timeVariants.length) return null;
+  return item.timeVariants.find((variant) => variant.time === state.selectedTime) || item.timeVariants[0];
 }
 
 $("#font-toggle").addEventListener("click", () => {
