@@ -31,10 +31,10 @@
           "label": "찬송",
           "hymn": {
             "number": 38,
-            "title": "일어셔서",
-            "image": "",
-            "verifiedTitle": "일어셔서",
-            "verificationStatus": "MISSING"
+            "title": "예수 우리 왕이여",
+            "image": "assets/hymns/038.jpg",
+            "verifiedTitle": "예수 우리 왕이여",
+            "verificationStatus": "MATCH"
           },
           "participant": "일어서서"
         },
@@ -56,9 +56,46 @@
           "number": 81,
           "reference": "에베소서 4장",
           "reading": {
-            "lines": [],
+            "lines": [
+              {
+                "speaker": "leader",
+                "text": "그러므로 주 안에서 갇힌 내가 너희를 권하노니"
+              },
+              {
+                "speaker": "congregation",
+                "text": "너희가 부르심을 받은 일에 합당하게 행하여"
+              },
+              {
+                "speaker": "leader",
+                "text": "모든 겸손과 온유로 하고 오래 참음으로 사랑 가운데서 서로 용납하고"
+              },
+              {
+                "speaker": "congregation",
+                "text": "평안의 매는 줄로 성령이 하나 되게 하신 것을 힘써 지키라"
+              },
+              {
+                "speaker": "leader",
+                "text": "몸이 하나요 성령도 한 분이시니"
+              },
+              {
+                "speaker": "congregation",
+                "text": "이와 같이 너희가 부르심의 한 소망 안에서 부르심을 받았느니라"
+              },
+              {
+                "speaker": "leader",
+                "text": "주도 한 분이시요 믿음도 하나요 세례도 하나요"
+              },
+              {
+                "speaker": "congregation",
+                "text": "하나님도 한 분이시니 곧 만유의 아버지시라"
+              },
+              {
+                "speaker": "all",
+                "text": "만유 위에 계시고 만유를 통일하시고 만유 가운데 계시도다"
+              }
+            ],
             "number": 81,
-            "reference": "에베소서 4장",
+            "reference": "1-6",
             "title": "에베소서 4장"
           },
           "participant": "앉아서"
@@ -67,10 +104,10 @@
           "label": "찬송",
           "hymn": {
             "number": 89,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "샤론의 꽃 예수",
+            "image": "assets/hymns/089.jpg",
+            "verifiedTitle": "샤론의 꽃 예수",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -80,32 +117,254 @@
         },
         {
           "label": "성경봉독",
-          "reference": "(각 부별)",
+          "reference": "마태복음 4:23-25",
           "timeVariants": [
             {
               "time": "07:30",
               "reference": "마태복음 4:23-25",
-              "verses": []
+              "verses": [
+                {
+                  "reference": "마 4:23",
+                  "book": "마",
+                  "chapter": 4,
+                  "verse": 23,
+                  "content": "예수께서 온 갈릴리에 두루 다니사 그들의 회당에서 가르치시며 천국 복음을 전파하시며 백성 중의 모든 병과 모든 약한 것을 고치시니"
+                },
+                {
+                  "reference": "마 4:24",
+                  "book": "마",
+                  "chapter": 4,
+                  "verse": 24,
+                  "content": "그의 소문이 온 수리아에 퍼진지라 사람들이 모든 앓는 자 곧 각종 병에 걸려서 고통 당하는 자, 귀신 들린 자, 간질하는 자, 중풍병자들을 데려오니 그들을 고치시더라"
+                },
+                {
+                  "reference": "마 4:25",
+                  "book": "마",
+                  "chapter": 4,
+                  "verse": 25,
+                  "content": "갈릴리와 데가볼리와 예루살렘과 유대와 요단 강 건너편에서 수많은 무리가 따르니라"
+                }
+              ]
             },
             {
               "time": "09:30",
               "reference": "에베소서 2:5-6",
-              "verses": []
+              "verses": [
+                {
+                  "reference": "엡 2:5",
+                  "book": "엡",
+                  "chapter": 2,
+                  "verse": 5,
+                  "content": "허물로 죽은 우리를 그리스도와 함께 살리셨고 (너희는 은혜로 구원을 받은 것이라)"
+                },
+                {
+                  "reference": "엡 2:6",
+                  "book": "엡",
+                  "chapter": 2,
+                  "verse": 6,
+                  "content": "또 함께 일으키사 그리스도 예수 안에서 함께 하늘에 앉히시니"
+                }
+              ]
             },
             {
               "time": "11:30",
-              "reference": "马可복음 16:15-20",
-              "verses": []
+              "reference": "마가복음 16:15-20",
+              "verses": [
+                {
+                  "reference": "막 16:15",
+                  "book": "막",
+                  "chapter": 16,
+                  "verse": 15,
+                  "content": "또 이르시되 너희는 온 천하에 다니며 만민에게 복음을 전파하라"
+                },
+                {
+                  "reference": "막 16:16",
+                  "book": "막",
+                  "chapter": 16,
+                  "verse": 16,
+                  "content": "믿고 세례를 받는 사람은 구원을 얻을 것이요 믿지 않는 사람은 정죄를 받으리라"
+                },
+                {
+                  "reference": "막 16:17",
+                  "book": "막",
+                  "chapter": 16,
+                  "verse": 17,
+                  "content": "믿는 자들에게는 이런 표적이 따르리니 곧 그들이 내 이름으로 귀신을 쫓아내며 새 방언을 말하며"
+                },
+                {
+                  "reference": "막 16:18",
+                  "book": "막",
+                  "chapter": 16,
+                  "verse": 18,
+                  "content": "뱀을 집어올리며 무슨 독을 마실지라도 해를 받지 아니하며 병든 사람에게 손을 얹은즉 나으리라 하시더라"
+                },
+                {
+                  "reference": "막 16:19",
+                  "book": "막",
+                  "chapter": 16,
+                  "verse": 19,
+                  "content": "주 예수께서 말씀을 마치신 후에 하늘로 올려지사 하나님 우편에 앉으시니라"
+                },
+                {
+                  "reference": "막 16:20",
+                  "book": "막",
+                  "chapter": 16,
+                  "verse": 20,
+                  "content": "제자들이 나가 두루 전파할새 주께서 함께 역사하사 그 따르는 표적으로 말씀을 확실히 증언하시니라]"
+                }
+              ]
             },
             {
               "time": "13:30",
               "reference": "고린도전서 1:18-24",
-              "verses": []
+              "verses": [
+                {
+                  "reference": "고전 1:18",
+                  "book": "고전",
+                  "chapter": 1,
+                  "verse": 18,
+                  "content": "십자가의 도가 멸망하는 자들에게는 미련한 것이요 구원을 받는 우리에게는 하나님의 능력이라"
+                },
+                {
+                  "reference": "고전 1:19",
+                  "book": "고전",
+                  "chapter": 1,
+                  "verse": 19,
+                  "content": "기록된 바 내가 지혜 있는 자들의 지혜를 멸하고 총명한 자들의 총명을 폐하리라 하였으니"
+                },
+                {
+                  "reference": "고전 1:20",
+                  "book": "고전",
+                  "chapter": 1,
+                  "verse": 20,
+                  "content": "지혜 있는 자가 어디 있느냐 선비가 어디 있느냐 이 세대에 변론가가 어디 있느냐 하나님께서 이 세상의 지혜를 미련하게 하신 것이 아니냐"
+                },
+                {
+                  "reference": "고전 1:21",
+                  "book": "고전",
+                  "chapter": 1,
+                  "verse": 21,
+                  "content": "하나님의 지혜에 있어서는 이 세상이 자기 지혜로 하나님을 알지 못하므로 하나님께서 전도의 미련한 것으로 믿는 자들을 구원하시기를 기뻐하셨도다"
+                },
+                {
+                  "reference": "고전 1:22",
+                  "book": "고전",
+                  "chapter": 1,
+                  "verse": 22,
+                  "content": "유대인은 표적을 구하고 헬라인은 지혜를 찾으나"
+                },
+                {
+                  "reference": "고전 1:23",
+                  "book": "고전",
+                  "chapter": 1,
+                  "verse": 23,
+                  "content": "우리는 십자가에 못 박힌 그리스도를 전하니 유대인에게는 거리끼는 것이요 이방인에게는 미련한 것이로되"
+                },
+                {
+                  "reference": "고전 1:24",
+                  "book": "고전",
+                  "chapter": 1,
+                  "verse": 24,
+                  "content": "오직 부르심을 받은 자들에게는 유대인이나 헬라인이나 그리스도는 하나님의 능력이요 하나님의 지혜니라"
+                }
+              ]
             },
             {
               "time": "15:30",
               "reference": "출애굽기 3:1-12, 요한복음 20:21",
-              "verses": []
+              "verses": [
+                {
+                  "reference": "출 3:1",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 1,
+                  "content": "모세가 그의 장인 미디안 제사장 이드로의 양 떼를 치더니 그 떼를 광야 서쪽으로 인도하여 하나님의 산 호렙에 이르매"
+                },
+                {
+                  "reference": "출 3:2",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 2,
+                  "content": "여호와의 사자가 떨기나무 가운데로부터 나오는 불꽃 안에서 그에게 나타나시니라 그가 보니 떨기나무에 불이 붙었으나 그 떨기나무가 사라지지 아니하는지라"
+                },
+                {
+                  "reference": "출 3:3",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 3,
+                  "content": "이에 모세가 이르되 내가 돌이켜 가서 이 큰 광경을 보리라 떨기나무가 어찌하여 타지 아니하는고 하니 그 때에"
+                },
+                {
+                  "reference": "출 3:4",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 4,
+                  "content": "여호와께서 그가 보려고 돌이켜 오는 것을 보신지라 하나님이 떨기나무 가운데서 그를 불러 이르시되 모세야 모세야 하시매 그가 이르되 내가 여기 있나이다"
+                },
+                {
+                  "reference": "출 3:5",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 5,
+                  "content": "하나님이 이르시되 이리로 가까이 오지 말라 네가 선 곳은 거룩한 땅이니 네 발에서 신을 벗으라"
+                },
+                {
+                  "reference": "출 3:6",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 6,
+                  "content": "또 이르시되 나는 네 조상의 하나님이니 아브라함의 하나님, 이삭의 하나님, 야곱의 하나님이니라 모세가 하나님 뵈옵기를 두려워하여 얼굴을 가리매"
+                },
+                {
+                  "reference": "출 3:7",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 7,
+                  "content": "여호와께서 이르시되 내가 애굽에 있는 내 백성의 고통을 분명히 보고 그들이 그들의 감독자로 말미암아 부르짖음을 듣고 그 근심을 알고"
+                },
+                {
+                  "reference": "출 3:8",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 8,
+                  "content": "내가 내려가서 그들을 애굽인의 손에서 건져내고 그들을 그 땅에서 인도하여 아름답고 광대한 땅, 젖과 꿀이 흐르는 땅 곧 가나안 족속, 헷 족속, 아모리 족속, 브리스 족속, 히위 족속, 여부스 족속의 지방에 데려가려 하노라"
+                },
+                {
+                  "reference": "출 3:9",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 9,
+                  "content": "이제 가라 이스라엘 자손의 부르짖음이 내게 달하고 애굽 사람이 그들을 괴롭히는 학대도 내가 보았으니"
+                },
+                {
+                  "reference": "출 3:10",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 10,
+                  "content": "이제 내가 너를 바로에게 보내어 너에게 내 백성 이스라엘 자손을 애굽에서 인도하여 내게 하리라"
+                },
+                {
+                  "reference": "출 3:11",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 11,
+                  "content": "모세가 하나님께 아뢰되 내가 누구이기에 바로에게 가며 이스라엘 자손을 애굽에서 인도하여 내리이까"
+                },
+                {
+                  "reference": "출 3:12",
+                  "book": "출",
+                  "chapter": 3,
+                  "verse": 12,
+                  "content": "하나님이 이르시되 내가 반드시 너와 함께 있으리라 네가 그 백성을 애굽에서 인도하여 낸 후에 너희가 이 산에서 하나님을 섬기리니 이것이 내가 너를 보낸 증거니라"
+                },
+                {
+                  "reference": "요 20:21",
+                  "book": "요",
+                  "chapter": 20,
+                  "verse": 21,
+                  "content": "예수께서 또 이르시되 너희에게 평강이 있을지어다 아버지께서 나를 보내신 것 같이 나도 너희를 보내노라"
+                }
+              ]
             }
           ],
           "participant": "인도자"
@@ -159,10 +418,10 @@
           "label": "찬송",
           "hymn": {
             "number": 516,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "옳은 길 따르라 의의길을",
+            "image": "assets/hymns/516.jpg",
+            "verifiedTitle": "옳은 길 따르라 의의길을",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -170,9 +429,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "",
+            "title": "진리와 생명 되신 주",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "진리와 생명 되신 주",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -185,10 +444,10 @@
           "label": "찬송",
           "hymn": {
             "number": 510,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "하나님의 진리등대",
+            "image": "assets/hymns/510.jpg",
+            "verifiedTitle": "하나님의 진리등대",
+            "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
@@ -227,7 +486,7 @@
             "하늘 소망 - Arr. 노희석",
             "시온"
           ],
-          "bible": "马可복음 16:15-20",
+          "bible": "마가복음 16:15-20",
           "sermon": "복음전파와 기적들 - 박홍신 목사"
         },
         "13:30": {
