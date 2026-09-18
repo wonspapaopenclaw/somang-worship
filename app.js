@@ -8,12 +8,7 @@ async function loadData() {
   if (!indexResponse.ok) throw new Error(`주보 목록을 불러오지 못했습니다: ${indexResponse.status}`);
   state.bulletins = await indexResponse.json();
   const requestedDate = new URLSearchParams(window.location.search).get("date");
-  const now = new Date();
-  const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
-  const selected = state.bulletins.find((bulletin) => bulletin.date === requestedDate)
-    || state.bulletins.find((bulletin) => bulletin.date === today)
-    || state.bulletins.find((bulletin) => bulletin.date < today)
-    || state.bulletins[0];
+  const selected = state.bulletins.find((bulletin) => bulletin.date === requestedDate) || state.bulletins[0];
   await selectBulletin(selected.date, false);
 }
 
