@@ -31,10 +31,10 @@
           "label": "찬송",
           "hymn": {
             "number": 27,
-            "title": "일어서서",
-            "image": "",
-            "verifiedTitle": "일어서서",
-            "verificationStatus": "MISSING"
+            "title": "",
+            "image": "assets/hymns/027.jpg",
+            "verifiedTitle": "",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -49,7 +49,7 @@
         {
           "label": "신앙고백",
           "name": "사도신경",
-          "participant": "사도신경 다같이"
+          "participant": "다같이"
         },
         {
           "label": "성시교독",
@@ -67,10 +67,10 @@
           "label": "찬송",
           "hymn": {
             "number": 446,
-            "title": "다같이",
-            "image": "",
-            "verifiedTitle": "다같이",
-            "verificationStatus": "MISSING"
+            "title": "",
+            "image": "assets/hymns/446.jpg",
+            "verifiedTitle": "",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -106,10 +106,10 @@
           "label": "찬송",
           "hymn": {
             "number": 428,
-            "title": "다같이",
-            "image": "",
-            "verifiedTitle": "다같이",
-            "verificationStatus": "MISSING"
+            "title": "",
+            "image": "assets/hymns/428.jpg",
+            "verifiedTitle": "",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -132,10 +132,10 @@
           "label": "찬송",
           "hymn": {
             "number": 413,
-            "title": "다같이",
-            "image": "",
-            "verifiedTitle": "다같이",
-            "verificationStatus": "MISSING"
+            "title": "",
+            "image": "assets/hymns/413.jpg",
+            "verifiedTitle": "",
+            "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
