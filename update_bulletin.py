@@ -588,7 +588,7 @@ def enrich_with_hymn_images(bulletin_data: dict) -> tuple[dict, set]:
 
 def enrich_with_responsive_readings(bulletin_data: dict) -> dict:
     """교독문 데이터 채우기"""
-    readings_file = BASE_DIR / "work" / "responsive_readings.json"
+    readings_file = Path(r"C:\Users\chajh\Documents\Codex\2026-09-06\referenced-chatgpt-conversation-this-is-an\outputs\responsive_readings_1-137.json")
     if not readings_file.exists():
         for f in BASE_DIR.rglob("*.json"):
             if "reading" in f.name.lower() or "교독" in f.name:
@@ -603,11 +603,14 @@ def enrich_with_responsive_readings(bulletin_data: dict) -> dict:
         with open(readings_file, "r", encoding="utf-8") as f:
             readings_data = json.load(f)
 
+        # items 배열에서 number로 찾기
+        readings_map = {item["number"]: item for item in readings_data.get("items", [])}
+
         for service in bulletin_data.get("services", []):
             for item in service.get("order", []):
                 if item.get("label") == "성시교독" and item.get("number"):
                     num = item["number"]
-                    reading = readings_data.get(str(num)) or readings_data.get(num)
+                    reading = readings_map.get(num)
                     if reading:
                         item["reading"] = reading
                         log(f"교독문 {num}번 데이터 채움")
@@ -618,24 +621,53 @@ def enrich_with_responsive_readings(bulletin_data: dict) -> dict:
 
 
 def apply_time_overrides(bulletin_data: dict, full_text: str) -> dict:
-    """시간별 예배 차이 적용"""
+    """시간별 예배 차이 적용 - 기도자/찬양 곡을 시간대별로 순서 매핑"""
     for service in bulletin_data.get("services", []):
+        times = service.get("times", [])
         time_overrides = {}
-        for time_str in service.get("times", []):
+        
+        # 찬양 곡 리스트 추출 (첫 번째 찬양 항목에서)
+        praise_items = []
+        for item in service.get("order", []):
+            if item.get("label") == "찬양" and item.get("items"):
+                praise_items = item["items"]
+                break
+        
+        # 기도자 리스트 추출 (기도 항목에서 · 또는 , 로 구분된 이름들)
+        prayer_names = []
+        for item in service.get("order", []):
+            if item.get("label") == "기도" and item.get("participant"):
+                participant = item["participant"]
+                # "기도 강종원 · 이한웅 장로 · 한정운 목사 · 홍석빈 장로 · 박미정 대학부 부감" 형태
+                # "기도 " 접두사 제거
+                if participant.startswith("기도"):
+                    participant = participant[2:].strip()
+                # · , 으로 분리
+                prayer_names = [name.strip() for name in re.split(r"[·,]", participant) if name.strip()]
+                break
+        
+        for i, time_str in enumerate(times):
             time_overrides[time_str] = {"prayer": "", "praise": []}
-
-            # 기도자 찾기
             escaped_time = re.escape(time_str)
-            pattern = rf"{escaped_time}.*?(?:기도자|기도)[:\s]*([^\n]+)"
-            match = re.search(pattern, full_text)
-            if match:
-                time_overrides[time_str]["prayer"] = match.group(1).strip()
 
-            # 찬양대 찾기
-            pattern = rf"{escaped_time}.*?(?:찬양|찬양대)[:\s]*([^\n]+)"
-            match = re.search(pattern, full_text)
-            if match:
-                time_overrides[time_str]["praise"] = [match.group(1).strip()]
+            # 기도자 순서대로 할당
+            if prayer_names and i < len(prayer_names):
+                time_overrides[time_str]["prayer"] = prayer_names[i]
+            else:
+                # 텍스트에서 시간대별 기도자 찾기 시도 (fallback)
+                pattern = rf"{escaped_time}.*?(?:기도자|기도)[:\s]*([^\n]+)"
+                match = re.search(pattern, full_text)
+                if match:
+                    time_overrides[time_str]["prayer"] = match.group(1).strip()
+
+            # 찬양대 찾기 - 텍스트에서 찾기 시도
+            pattern2 = rf"{escaped_time}.*?(?:찬양|찬양대)[:\s]*([^\n]+)"
+            match2 = re.search(pattern2, full_text)
+            if match2:
+                time_overrides[time_str]["praise"] = [match2.group(1).strip()]
+            # 텍스트에 없으면 찬양 곡 리스트에서 순서대로 할당
+            elif praise_items and i < len(praise_items):
+                time_overrides[time_str]["praise"] = [praise_items[i]]
 
         service["timeOverrides"] = time_overrides
 
@@ -716,7 +748,9 @@ def update_index_json(issue_date: str, filename: str, bulletin_data: dict) -> No
         index = []
 
     index = [item for item in index if item.get("date") != issue_date]
-    label = f"{issue_date.replace('-', '년 ').replace('-', '월 ')}일 · 제{bulletin_data.get('bulletinNumber', '?')}호"
+    # YYYY-MM-DD -> YYYY년 MM월 DD일
+    parts = issue_date.split("-")
+    label = f"{parts[0]}년 {int(parts[1]):02d}월 {int(parts[2]):02d}일 · 제{bulletin_data.get('bulletinNumber', '?')}호"
     index.insert(0, {"date": issue_date, "file": filename, "label": label})
     index = index[:20]
 
@@ -806,11 +840,18 @@ def extract_bulletin_from_image(img_b64: str, issue_date: str, bulletin_number: 
         log(f"LM Studio OCR 완료 ({len(content)} 문자)")
         log(f"OCR 원본 내용: {content[:1000]}")
 
+        # OCR 텍스트에서 주보 번호 추출 (제 XXXX 호)
+        ocr_bulletin_number = bulletin_number
+        ocr_match = re.search(r"제\s*(\d+)\s*호", content)
+        if ocr_match:
+            ocr_bulletin_number = int(ocr_match.group(1))
+            log(f"OCR에서 주보 번호 추출: 제 {ocr_bulletin_number} 호")
+
         # 추출된 텍스트를 기존 파싱 함수로 처리
         parsed = parse_bulletin_text(content)
         bulletin_data = {
             "issueDate": issue_date,
-            "bulletinNumber": bulletin_number,
+            "bulletinNumber": ocr_bulletin_number,
             "sourcePdf": pdf_url,
             "page": 1,
             "services": parsed["services"],
