@@ -122,7 +122,7 @@
         {
           "label": "기도",
           "participants": "",
-          "participant": "강종원 · 이한웅 장로 · 한정운 목사 · 홍석빈 장로 · 박미정 대학부 부감"
+          "participant": "기도자"
         },
         {
           "label": "성경봉독",
@@ -215,31 +215,31 @@
       ],
       "timeOverrides": {
         "07:30": {
-          "prayer": "강종원",
+          "prayer": "자",
           "praise": [
             "볼지어다 내가 문 밖에 서서 두드리노니 - 김신웅 베다니"
           ]
         },
         "09:30": {
-          "prayer": "이한웅 장로",
+          "prayer": "",
           "praise": [
             "주여 영광 받으소서 - Gabriel Faure 호산나"
           ]
         },
         "11:30": {
-          "prayer": "한정운 목사",
+          "prayer": "",
           "praise": [
             "주 예수 내 맘에 오심 - Arr. Larry Shackley 시온"
           ]
         },
         "13:30": {
-          "prayer": "홍석빈 장로",
+          "prayer": "",
           "praise": [
             "주님의 크신 은혜 - Haldor Lillenas 할렐루야"
           ]
         },
         "15:30": {
-          "prayer": "박미정 대학부 부감",
+          "prayer": "",
           "praise": [
             "일어나라 찬양하라 - Joseph M. Martin 에벤에셀"
           ]
