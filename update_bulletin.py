@@ -407,9 +407,11 @@ def parse_section_content(section: str, line: str, service: dict) -> dict | None
         }
 
     elif section == "기도":
+        # 두 번째 "기도" (성시교독/찬송 후)인 경우 "기도자"로 통일
+        # timeOverrides에 상세 매핑됨
         return {
             "label": "기도",
-            "participant": line
+            "participant": "기도자"
         }
 
     elif section in ["예배로 부름", "송영", "참회기도", "사죄확인", "신앙고백", "헌금기도", "축도"]:
@@ -487,9 +489,11 @@ def build_default_order(parsed_items: list, full_text: str) -> list:
             elif label == "찬양":
                 t["items"] = parsed_item.get("items", t.get("items", []))
             elif label == "기도":
-                # 기도 참여자 업데이트
+                # 기도 참여자 업데이트 - 메인 order에는 "기도자"로, 상세는 timeOverrides에
                 if "participant" in parsed_item:
-                    t["participant"] = parsed_item["participant"]
+                    # 첫 번째 기도(기원)는 인도자, 두 번째 기도는 "기도자", 세 번째는 설교자
+                    # build_default_order에서 순서대로 처리되므로 인덱스로 구분
+                    pass  # 템플릿의 기본값 유지 (첫번째: 인도자, 두번째: 기도자, 세번째: 설교자)
             else:
                 # 기타 항목은 participant만 업데이트
                 if "participant" in parsed_item:
@@ -633,18 +637,14 @@ def apply_time_overrides(bulletin_data: dict, full_text: str) -> dict:
                 praise_items = item["items"]
                 break
         
-        # 기도자 리스트 추출 (기도 항목에서 · 또는 , 로 구분된 이름들)
+        # 기도자 리스트 추출 (원본 텍스트에서 직접 추출)
         prayer_names = []
-        for item in service.get("order", []):
-            if item.get("label") == "기도" and item.get("participant"):
-                participant = item["participant"]
-                # "기도 강종원 · 이한웅 장로 · 한정운 목사 · 홍석빈 장로 · 박미정 대학부 부감" 형태
-                # "기도 " 접두사 제거
-                if participant.startswith("기도"):
-                    participant = participant[2:].strip()
-                # · , 으로 분리
-                prayer_names = [name.strip() for name in re.split(r"[·,]", participant) if name.strip()]
-                break
+        # "기도 강종원 · 이한웅 장로 · 한정운 목사 · 홍석빈 장로 · 박미정 대학부 부감" 패턴 찾기
+        prayer_match = re.search(r"기도\s+(.+?)(?:\n|$)", full_text)
+        if prayer_match:
+            participant = prayer_match.group(1).strip()
+            # · , 으로 분리
+            prayer_names = [name.strip() for name in re.split(r"[·,]", participant) if name.strip()]
         
         for i, time_str in enumerate(times):
             time_overrides[time_str] = {"prayer": "", "praise": []}
