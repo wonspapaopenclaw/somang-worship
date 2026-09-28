@@ -217,9 +217,9 @@ def parse_bulletin_text(text: str) -> dict:
 
         # 섹션 헤더 감지 및 같은 줄 내용 파싱
         section_keywords = [
-            "예배로 부름", "송영", "기도", "찬송", "참회기도", "사죄확인",
-            "신앙고백", "성시교독", "성경봉독", "찬양", "말씀", "설교",
-            "헌금", "헌금기도", "축도"
+            "예배로 부름", "송영", "기원", "찬송", "참회기도", "사죄확인",
+            "신앙고백", "성시교독", "찬송", "기도", "성경봉독", "찬양", "말씀", "설교",
+            "헌금", "헌금기도", "축도", "기도"
         ]
         
         matched_section = None
@@ -427,22 +427,22 @@ def parse_section_content(section: str, line: str, service: dict) -> dict | None
 
 
 def get_template_order() -> list:
-    """기본 예배 순서 템플릿"""
+    """기본 예배 순서 템플릿 (실제 주보 순서 반영)"""
     return [
         {"label": "예배로 부름", "participant": "인도자"},
         {"label": "송영", "participant": "찬양대"},
-        {"label": "기도", "participant": "인도자"},
+        {"label": "기원", "participant": "인도자"},           # 1. 기원 (송영 후, 첫 찬송 전)
         {"label": "찬송", "hymn": {"number": 0, "title": "", "image": "", "verifiedTitle": "", "verificationStatus": "PENDING"}, "participant": "일어서서"},
         {"label": "참회기도", "participant": "다같이"},
         {"label": "사죄확인", "participant": "인도자"},
         {"label": "신앙고백", "name": "사도신경", "participant": "다같이"},
         {"label": "성시교독", "number": 0, "reference": "", "reading": {"lines": [], "number": 0, "reference": "", "title": ""}, "participant": "앉아서"},
         {"label": "찬송", "hymn": {"number": 0, "title": "", "image": "", "verifiedTitle": "", "verificationStatus": "PENDING"}, "participant": "다같이"},
-        {"label": "기도", "participants": "", "participant": "기도자"},
+        {"label": "기도", "participants": "", "participant": "기도자"},      # 2. 기도 (두 번째 찬송 후, 성경봉독 전)
         {"label": "성경봉독", "reference": "", "verses": [], "participant": "인도자"},
         {"label": "찬양", "items": [], "participant": "찬양대"},
         {"label": "말씀", "title": "", "preacher": "", "participant": "설교자"},
-        {"label": "기도", "participant": "설교자"},
+        {"label": "기도", "participant": "설교자"},                          # 3. 기도 (말씀 후)
         {"label": "찬송", "hymn": {"number": 0, "title": "", "image": "", "verifiedTitle": "", "verificationStatus": "PENDING"}, "participant": "다같이"},
         {"label": "헌금", "hymn": {"number": 0, "title": "", "image": "", "verifiedTitle": "", "verificationStatus": "PENDING"}, "participant": "다같이"},
         {"label": "헌금기도", "participant": "인도자"},
