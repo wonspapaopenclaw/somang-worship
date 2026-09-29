@@ -28,7 +28,19 @@ async function selectBulletin(date, updateUrl = true) {
 }
 
 function escapeHtml(value = "") {
-  return String(value).replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]));
+  return String(value).replace(/[&<>'"]/g, (char) => ({
+    "&": "&",
+    "<": "<",
+    ">": ">",
+    "'": "'",
+    '"': '"'
+  }[char]));
+}
+
+function formatIssueDate(isoDate) {
+  // "2026-09-27" -> "2026년 09월 27일"
+  const [year, month, day] = isoDate.split("-");
+  return `${year}년 ${month}월 ${day}일`;
 }
 
 function render() {
@@ -36,8 +48,9 @@ function render() {
   const bulletinSelect = $("#bulletin-select");
   bulletinSelect.innerHTML = state.bulletins.map((bulletin) => `<option value="${escapeHtml(bulletin.date)}" ${bulletin.date === state.selectedDate ? "selected" : ""}>${escapeHtml(bulletin.label)}</option>`).join("");
   bulletinSelect.onchange = () => selectBulletin(bulletinSelect.value).catch(showError);
-  $("#bulletin-picker-status").textContent = `${state.data.issueDate} · 주보 ${state.data.bulletinNumber}호를 보고 있습니다.`;
-  $("#issue-label").textContent = `${state.data.issueDate} · 주보 ${state.data.bulletinNumber}호`;
+  const formattedDate = formatIssueDate(state.data.issueDate);
+  $("#bulletin-picker-status").textContent = `${formattedDate} · 주보 ${state.data.bulletinNumber}호를 보고 있습니다.`;
+  $("#issue-label").textContent = `${formattedDate} · 주보 ${state.data.bulletinNumber}호`;
   $("#source-link").href = state.data.sourcePdf;
   $("#time-tabs").innerHTML = service.times.map((time) => `
     <button class="time-tab" type="button" role="tab" aria-selected="${time === state.selectedTime}" data-time="${time}">${time}</button>
