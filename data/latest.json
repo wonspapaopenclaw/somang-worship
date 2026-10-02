@@ -31,10 +31,10 @@
           "label": "찬송",
           "hymn": {
             "number": 67,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "영광의 왕께 다 경배하며",
+            "image": "assets/hymns/067.jpg",
+            "verifiedTitle": "영광의 왕께 다 경배하며",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -120,10 +120,10 @@
           "label": "찬송",
           "hymn": {
             "number": 600,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "교회의 참된 터는",
+            "image": "assets/hymns/600.jpg",
+            "verifiedTitle": "교회의 참된 터는",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -185,10 +185,10 @@
           "label": "찬송",
           "hymn": {
             "number": 216,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "성자의 귀한 몸",
+            "image": "assets/hymns/216.jpg",
+            "verifiedTitle": "성자의 귀한 몸",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -196,9 +196,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "",
+            "title": "진리와 생명 되신 주",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "진리와 생명 되신 주",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -211,10 +211,10 @@
           "label": "찬송",
           "hymn": {
             "number": 210,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "시온성과 같은 교회",
+            "image": "assets/hymns/210.jpg",
+            "verifiedTitle": "시온성과 같은 교회",
+            "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
