@@ -233,31 +233,36 @@
           "prayer": "임종세",
           "praise": [
             "네가 죽도록 충성하라 - 김신웅   베다니"
-          ]
+          ],
+          "sermon_prayer": "김경진 목사"
         },
         "09:30": {
           "prayer": "전경희",
           "praise": [
             "평화의 복음 전하는 저 사자들 아름답다 - F. Mendelssohn   호산나"
-          ]
+          ],
+          "sermon_prayer": "김경진 목사"
         },
         "11:30": {
           "prayer": "강제훈 장로",
           "praise": [
             "교회의 참된 터는 우리 주예수 - 김신웅   시온"
-          ]
+          ],
+          "sermon_prayer": "김경진 목사"
         },
         "13:30": {
           "prayer": "김영규 목사",
           "praise": [
             "영화롭도다 - W. A. Mozart   할렐루야"
-          ]
+          ],
+          "sermon_prayer": "김경진 목사"
         },
         "15:30": {
           "prayer": "김기억 장로",
           "praise": [
             "하나되어 - 김기영   에벤에셀"
-          ]
+          ],
+          "sermon_prayer": "김경진 목사"
         }
       }
     }
