@@ -97,9 +97,11 @@ function renderOrderItem(item, index, overrides) {
     detail = `<div class="detail">${praise.map((value) => `<div>${escapeHtml(value)}</div>`).join("")}</div>`;
     detail += `<p class="muted">${escapeHtml(overrides.praise?.[1] || item.participant || "")}</p>`;
   } else if (item.label === "기도") {
-    // 기도 항목: timeOverrides의 prayer 사용, 없으면 participant("기도자") 표시
-    const prayer = overrides.prayer || item.participant || "";
-    detail = `<div class="detail">${escapeHtml(prayer)}</div>`;
+      // 기도 항목: 첫/두 번째는 overrides.prayer(기도자), 세 번째(말씀 후)는 overrides.sermon_prayer(설교자)
+      // item.participant가 "설교자"인 경우 세 번째 기도로 간주
+      const isSermonPrayer = item.participant === "설교자";
+      const prayer = isSermonPrayer ? (overrides.sermon_prayer || item.participant || "") : (overrides.prayer || item.participant || "");
+      detail = `<div class="detail">${escapeHtml(prayer)}</div>`;
   } else if (item.title || item.timeVariants) {
     const message = variantFor(item) || overrides.message || item;
     detail = `<div class="detail"><strong>${escapeHtml(message.title || "")}</strong>${message.preacher ? `<span class="muted"> · ${escapeHtml(message.preacher)}</span>` : ""}</div>`;
