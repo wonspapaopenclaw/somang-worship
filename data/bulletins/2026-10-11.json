@@ -230,27 +230,29 @@
         "09:30": {
           "prayer": "홍성민",
           "praise": [
-            "주 너를 지키리 - 조성은 시온"
+            "찬양의 심포니 - Arr. Bob Krogstad 호산나"
           ],
           "sermon_prayer": "예배인도 김경진 목사"
         },
         "11:30": {
           "prayer": "이우성",
           "praise": [
-            "확실한 나의 간증 - Arr. Gale Dunn 할렐루야"
+            "주 너를 지키리 - 조성은 시온"
           ],
           "sermon_prayer": "예배인도 김경진 목사"
         },
         "13:30": {
           "prayer": "이성민",
           "praise": [
-            "아 하나님의 은혜로 - 강샤론 에벤에셀"
+            "확실한 나의 간증 - Arr. Gale Dunn 할렐루야"
           ],
           "sermon_prayer": "예배인도 김경진 목사"
         },
         "15:30": {
           "prayer": "이순기 목사",
-          "praise": [],
+          "praise": [
+            "아 하나님의 은혜로 - 강샤론 에벤에셀"
+          ],
           "sermon_prayer": "예배인도 김경진 목사"
         }
       }
