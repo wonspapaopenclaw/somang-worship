@@ -31,9 +31,9 @@
           "label": "찬송",
           "hymn": {
             "number": 23,
-            "title": "만 입이 내게 있으면",
+            "title": "",
             "image": "assets/hymns/023.jpg",
-            "verifiedTitle": "만 입이 내게 있으면",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -112,9 +112,9 @@
           "label": "찬송",
           "hymn": {
             "number": 84,
-            "title": "온 세상이 캄캄하여서",
+            "title": "",
             "image": "assets/hymns/084.jpg",
-            "verifiedTitle": "온 세상이 캄캄하여서",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -154,9 +154,9 @@
           "label": "찬송",
           "hymn": {
             "number": 510,
-            "title": "하나님의 진리등대",
+            "title": "",
             "image": "assets/hymns/510.jpg",
-            "verifiedTitle": "하나님의 진리등대",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -165,9 +165,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "진리와 생명 되신 주",
+            "title": "",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "진리와 생명 되신 주",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -180,9 +180,9 @@
           "label": "찬송",
           "hymn": {
             "number": 502,
-            "title": "빛의 사자들이여",
+            "title": "",
             "image": "assets/hymns/502.jpg",
-            "verifiedTitle": "빛의 사자들이여",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
