@@ -32,9 +32,9 @@
           "hymn": {
             "number": 15,
             "title": "",
-            "image": "",
+            "image": "assets/hymns/015.jpg",
             "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -113,9 +113,9 @@
           "hymn": {
             "number": 85,
             "title": "",
-            "image": "",
+            "image": "assets/hymns/085.jpg",
             "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -212,9 +212,9 @@
           "hymn": {
             "number": 335,
             "title": "",
-            "image": "",
+            "image": "assets/hymns/335.jpg",
             "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
