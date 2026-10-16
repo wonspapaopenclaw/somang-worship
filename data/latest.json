@@ -121,7 +121,7 @@
         },
         {
           "label": "기도",
-          "participants": "",
+          "participants": "김주경 목사 · 홍선표 · 백광흠 · 박동찬 장로 · 임대성 청년부 부감",
           "participant": "기도자"
         },
         {
@@ -178,7 +178,8 @@
         },
         {
           "label": "기도",
-          "participant": "설교자"
+          "participant": "설교자",
+          "participants": "김주경 목사 · 홍선표 · 백광흠 · 박동찬 장로 · 임대성 청년부 부감"
         },
         {
           "label": "찬송",
@@ -229,31 +230,31 @@
       ],
       "timeOverrides": {
         "07:30": {
-          "prayer": "",
+          "prayer": "김주경 목사",
           "praise": [
             "진실하신 친구 - Arr. John M.rasley 베다니"
           ]
         },
         "09:30": {
-          "prayer": "",
+          "prayer": "홍선표",
           "praise": [
             "성부의 아들이여 - A. Vivaldi 호산나"
           ]
         },
         "11:30": {
-          "prayer": "",
+          "prayer": "백광흠",
           "praise": [
             "하나님의 전신갑주 - 김신웅 시온"
           ]
         },
         "13:30": {
-          "prayer": "",
+          "prayer": "박동찬 장로",
           "praise": [
             "하늘의 아버지 - G. F. Handel 할렐루야"
           ]
         },
         "15:30": {
-          "prayer": "",
+          "prayer": "임대성 청년부 부감",
           "praise": [
             "하나님 없이는 - 김재훈 에벤에셀"
           ]
