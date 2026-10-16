@@ -1,7 +1,7 @@
 {
-  "issueDate": "2026-10-11",
-  "bulletinNumber": 2561,
-  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=189350&pageid=1&action=kboard_file_download&kboard-file-download-nonce=ae17b08bf6&file=file1",
+  "issueDate": "2026-10-18",
+  "bulletinNumber": 2562,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=205322&pageid=1&action=kboard_file_download&kboard-file-download-nonce=f8f90e5979&file=file1",
   "page": 1,
   "services": [
     {
@@ -30,11 +30,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 23,
-            "title": "만 입이 내게 있으면",
-            "image": "assets/hymns/023.jpg",
-            "verifiedTitle": "만 입이 내게 있으면",
-            "verificationStatus": "MATCH"
+            "number": 15,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -53,69 +53,69 @@
         },
         {
           "label": "성시교독",
-          "number": 88,
-          "reference": "세례(1)",
+          "number": 83,
+          "reference": "빌립보서 4장",
           "reading": {
             "lines": [
               {
                 "speaker": "leader",
-                "text": "하늘에 계시는 주여 내가 눈을 들어 주께 향하나이다"
+                "text": "주 안에서 항상 기뻐하라 내가 다시 말하노니 기뻐하라"
               },
               {
                 "speaker": "congregation",
-                "text": "여호와 우리 하나님을 바라보며 우리에게 은혜 베풀어 주시기를 기다리나이다"
+                "text": "너희 관용을 모든 사람에게 알게 하라 주께서 가까우시니라"
               },
               {
                 "speaker": "leader",
-                "text": "우리가 아직 죄인 되었을 때에 그리스도께서 우리를 위하여 죽으심으로"
+                "text": "아무것도 염려하지 말고 다만 모든 일에 기도와 간구로"
               },
               {
                 "speaker": "congregation",
-                "text": "하나님께서 우리에 대한 자기의 사랑을 확증하셨느니라"
+                "text": "너희 구할 것을 감사함으로 하나님께 아뢰라"
               },
               {
                 "speaker": "leader",
-                "text": "그러면 이제 우리가 그의 피로 말미암아 의롭다 하심을 받았으니"
+                "text": "그리하면 모든 지각에 뛰어난 하나님의 평강이"
               },
               {
                 "speaker": "congregation",
-                "text": "더욱 그로 말미암아 진노하심에서 구원을 받을 것이니"
+                "text": "그리스도 예수 안에서 너희 마음과 생각을 지키시리라"
               },
               {
                 "speaker": "leader",
-                "text": "이는 아버지의 영광으로 말미암아 그리스도를 죽은 자 가운데서 살리심과 같이"
+                "text": "끝으로 형제들아 무엇에든지 참되며 무엇에든지 경건하며 무엇에든지 옳으며"
               },
               {
                 "speaker": "congregation",
-                "text": "우리로 또한 새 생명 가운데서 행하게 하려 함이라"
+                "text": "무엇에든지 정결하며 무엇에든지 사랑 받을 만하며 무엇에든지 칭찬 받을 만하며"
               },
               {
                 "speaker": "leader",
-                "text": "그러므로 너희가 그리스도 예수를 주로 받았으니"
+                "text": "무슨 덕이 있든지 무슨 기림이 있든지 이것들을 생각하라"
               },
               {
                 "speaker": "congregation",
-                "text": "그 안에서 행하되 그 안에 뿌리를 박으며 세움을 받아"
+                "text": "너희는 내게 배우고 받고 듣고 본 바를 행하라"
               },
               {
                 "speaker": "all",
-                "text": "교훈을 받은 대로 믿음에 굳게 서서 감사함을 넘치게 하라"
+                "text": "그리하면 평강의 하나님이 너희와 함께 계시리라"
               }
             ],
-            "number": 88,
-            "reference": "골 2:6-7",
-            "title": "세례(침례)(1)"
+            "number": 83,
+            "reference": "4-9",
+            "title": "빌립보서 4장"
           },
           "participant": "앉아서"
         },
         {
           "label": "찬송",
           "hymn": {
-            "number": 84,
-            "title": "온 세상이 캄캄하여서",
-            "image": "assets/hymns/084.jpg",
-            "verifiedTitle": "온 세상이 캄캄하여서",
-            "verificationStatus": "MATCH"
+            "number": 85,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -126,45 +126,53 @@
         },
         {
           "label": "성경봉독",
-          "reference": "요 8:12",
+          "reference": "누가복음 1:76-79",
           "verses": [
             {
-              "reference": "요한복음 8:12",
-              "book": "요",
-              "chapter": 8,
-              "verse": 12,
-              "content": "예수께서 또 말씀하여 이르시되 나는 세상의 빛이니 나를 따르는 자는 어둠에 다니지 아니하고 생명의 빛을 얻으리라"
+              "reference": "누가복음 1:76",
+              "book": "누",
+              "chapter": 1,
+              "verse": 76,
+              "content": "이 아이여 네가 지극히 높으신 이의 선지자라 일컬음을 받고 주 앞에 앞서 가서 그 길을 준비하여"
+            },
+            {
+              "reference": "누가복음 1:77",
+              "book": "누",
+              "chapter": 1,
+              "verse": 77,
+              "content": "주의 백성에게 그 죄 사함으로 말미암는 구원을 알게 하리니"
+            },
+            {
+              "reference": "누가복음 1:78",
+              "book": "누",
+              "chapter": 1,
+              "verse": 78,
+              "content": "이는 우리 하나님의 긍휼로 인함이라 이로써 돋는 해가 위로부터 우리에게 임하여"
+            },
+            {
+              "reference": "누가복음 1:79",
+              "book": "누",
+              "chapter": 1,
+              "verse": 79,
+              "content": "어둠과 죽음의 그늘에 앉은 자에게 비치고 우리 발을 평강의 길로 인도하시리로다 하니라"
             }
           ],
-          "participant": "인도자",
-          "timeVariants": [
-            {
-              "reference": "요 8:12",
-              "verses": [
-                {
-                  "reference": "요 8:12",
-                  "book": "요",
-                  "chapter": 8,
-                  "verse": 12,
-                  "content": "예수께서 또 말씀하여 이르시되 나는 세상의 빛이니 나를 따르는 자는 어둠에 다니지 아니하고 생명의 빛을 얻으리라"
-                }
-              ]
-            }
-          ]
+          "participant": "인도자"
         },
         {
           "label": "찬양",
           "items": [
-            "천사의 노래 - Arr. Plotr Ilyitch Tchaikovsky 베다니",
-            "주 너를 지키리 - 조성은 시온",
-            "확실한 나의 간증 - Arr. Gale Dunn 할렐루야",
-            "아 하나님의 은혜로 - 강샤론 에벤에셀"
+            "진실하신 친구 - Arr. John M.rasley 베다니",
+            "성부의 아들이여 - A. Vivaldi 호산나",
+            "하나님의 전신갑주 - 김신웅 시온",
+            "하늘의 아버지 - G. F. Handel 할렐루야",
+            "하나님 없이는 - 김재훈 에벤에셀"
           ],
           "participant": "찬양대"
         },
         {
           "label": "말씀",
-          "title": "잠든 세상을 깨우는 빛",
+          "title": "그늘에 비치는 따뜻한 빛",
           "preacher": "예배인도 김경진 목사",
           "participant": "설교자"
         },
@@ -175,10 +183,10 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 510,
-            "title": "하나님의 진리등대",
-            "image": "assets/hymns/510.jpg",
-            "verifiedTitle": "하나님의 진리등대",
+            "number": 428,
+            "title": "",
+            "image": "assets/hymns/428.jpg",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -187,9 +195,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "진리와 생명 되신 주",
+            "title": "",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "진리와 생명 되신 주",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -201,11 +209,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 502,
-            "title": "빛의 사자들이여",
-            "image": "assets/hymns/502.jpg",
-            "verifiedTitle": "빛의 사자들이여",
-            "verificationStatus": "MATCH"
+            "number": 335,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
@@ -221,42 +229,37 @@
       ],
       "timeOverrides": {
         "07:30": {
-          "prayer": "정제헌",
+          "prayer": "",
           "praise": [
-            "천사의 노래 - Arr. Plotr Ilyitch Tchaikovsky 베다니"
-          ],
-          "sermon_prayer": "예배인도 김경진 목사"
+            "진실하신 친구 - Arr. John M.rasley 베다니"
+          ]
         },
         "09:30": {
-          "prayer": "홍성민",
+          "prayer": "",
           "praise": [
-            "찬양의 심포니 - Arr. Bob Krogstad 호산나"
-          ],
-          "sermon_prayer": "예배인도 김경진 목사"
+            "성부의 아들이여 - A. Vivaldi 호산나"
+          ]
         },
         "11:30": {
-          "prayer": "이우성",
+          "prayer": "",
           "praise": [
-            "주 너를 지키리 - 조성은 시온"
-          ],
-          "sermon_prayer": "예배인도 김경진 목사"
+            "하나님의 전신갑주 - 김신웅 시온"
+          ]
         },
         "13:30": {
-          "prayer": "이성민",
+          "prayer": "",
           "praise": [
-            "확실한 나의 간증 - Arr. Gale Dunn 할렐루야"
-          ],
-          "sermon_prayer": "예배인도 김경진 목사"
+            "하늘의 아버지 - G. F. Handel 할렐루야"
+          ]
         },
         "15:30": {
-          "prayer": "이순기 목사",
+          "prayer": "",
           "praise": [
-            "아 하나님의 은혜로 - 강샤론 에벤에셀"
-          ],
-          "sermon_prayer": "예배인도 김경진 목사"
+            "하나님 없이는 - 김재훈 에벤에셀"
+          ]
         }
       }
     }
   ],
-  "nextWeekPrayer": "김주경 목사 · 홍선표 · 백광흠 · 박동찬 장로 · 임대성 청년부 부감"
+  "nextWeekPrayer": "박형진 장로 · 장재원 목사 · 김덕영 · 장형기 장로 · 홍경화 청년부 부감"
 }
