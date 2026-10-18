@@ -763,6 +763,62 @@ def copy_hymn_images(used_hymns: set) -> None:
     """사용된 찬송가 이미지 확인"""
     log(f"사용된 찬송가: {sorted(used_hymns)}")
 
+# ──────────────────────────────────────────────
+# 배포 검증 및 이미지 재조정
+# ──────────────────────────────────────────────
+def verify_deployment(latest_json: Path) -> dict:
+    """배포 후 검증: 이미지 경로가 올바른지 확인하고 수정"""
+    errors = []
+    corrected = False
+
+    try:
+        with open(latest_json, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception as e:
+        log(f"배포 검증 실패(초기화): {e}")
+        return {'success': False, 'errors': [str(e)]}
+
+    hymn_dir = BASE_DIR / 'assets' / 'hymns'
+    hymn_dir.mkdir(parents=True, exist_ok=True)
+
+    def fix_hymn_image(bulletin_dict) -> dict:
+        nonlocal corrected, errors
+        for service in bulletin_data.get('services', []):
+            for item in service.get('order', []):
+                hymn = item.get('hymn', {})
+                image = hymn.get('image', '')
+                if not image:
+                    continue
+                # 이미지 경로가 assets/hymns/XXXX.jpg 형식인지 확인
+                if image.startswith('assets/hymns/'):
+                    num_str = image.split('/')[-1].replace('.jpg', '').replace('.png', '')
+                    if num_str.isdigit():
+                        num = int(num_str)
+                        expected_img = f"{num:03d}.jpg"
+                        hymn_img = hymn_dir / expected_img
+                        if not hymn_img.exists():
+                            hymn_img = hymn_dir / f"{num}.jpg"
+                        if hymn_img.exists():
+                            hymn['image'] = f"assets/hymns/{hymn_img.name}"
+                            if hymn.get('verificationStatus') == 'MISSING':
+                                hymn['verificationStatus'] = 'MATCH'
+                            corrected = True
+                        elif old_image:
+                            errors.append(f"찬송가 이미지 없음: 번호 {hymn.get('number')}, 경로 {old_image}")
+                    elif num_str:
+                        errors.append(f"찬송가 번호 파싱 실패: {num_str}, 이미지 {old_image}")
+        return bulletin_data
+
+    # 이미지 경로 재조정 후 저장
+    if fix_hymn_image(data) != data or errors:
+        with open(latest_json, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        log(f"이미지 경로 수정됨: {len(errors)}건")
+        for e in errors:
+            log(f"  - {e}")
+
+    return {'success': not errors, 'errors': errors, 'corrected': corrected}
+
 
 # ──────────────────────────────────────────────
 # Git 연동
@@ -951,17 +1007,14 @@ def main() -> int:
             "data/bulletins/index.json"
         ]
         deployed = git_commit_and_push(issue_date, changed_files)
-
-        for tf in temp_files:
-            safe_unlink(tf)
-
-        log("=== 작업 완료 ===")
-        log(f"주보 날짜: {issue_date}")
-        log(f"변경된 파일: {', '.join(changed_files)}")
-        log(f"검증: {'성공' if validation['valid'] else '실패'} (에러 {len(validation['errors'])}개, 경고 {len(validation['warnings'])}개)")
-        log(f"GitHub Pages 배포: {'예' if deployed else '아니오'}")
-
-        return 0 if validation["valid"] else 1
+        deployed = git_commit_and_push(issue_date, changed_files)
+        # 배포 후 이미지 경로 검증 및 재조정
+        if deployed:
+            verification = verify_deployment(LATEST_JSON)
+            log(f"배포 검증: success={verification.get('success')}, corrected={verification.get('corrected')}")
+            if verification.get('corrected'):
+                # 수정사항 커밋 및 푸시
+                git_commit_and_push(issue_date + ' (이미지 경로 수정)', changed_files)
 
     except Exception as e:
         log(f"작업 실패: {e}")
