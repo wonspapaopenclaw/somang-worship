@@ -31,10 +31,10 @@
           "label": "찬송",
           "hymn": {
             "number": 26,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "구세주를 아는 이들",
+            "image": "assets/hymns/026.jpg",
+            "verifiedTitle": "구세주를 아는 이들",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -128,10 +128,10 @@
           "label": "찬송",
           "hymn": {
             "number": 80,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "천지에 있는 이름 중",
+            "image": "assets/hymns/080.jpg",
+            "verifiedTitle": "천지에 있는 이름 중",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -186,10 +186,10 @@
           "label": "찬송",
           "hymn": {
             "number": 552,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "아침 해가 돋을 때",
+            "image": "assets/hymns/552.jpg",
+            "verifiedTitle": "아침 해가 돋을 때",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -197,9 +197,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "",
+            "title": "진리와 생명 되신 주",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "진리와 생명 되신 주",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -212,10 +212,10 @@
           "label": "찬송",
           "hymn": {
             "number": 585,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "내주는 강한 성이요",
+            "image": "assets/hymns/585.jpg",
+            "verifiedTitle": "내주는 강한 성이요",
+            "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
