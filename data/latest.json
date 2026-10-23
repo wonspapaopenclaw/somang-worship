@@ -1,7 +1,7 @@
 {
-  "issueDate": "2026-10-18",
-  "bulletinNumber": 2562,
-  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=205322&pageid=1&action=kboard_file_download&kboard-file-download-nonce=f8f90e5979&file=file1",
+  "issueDate": "2026-10-25",
+  "bulletinNumber": 2563,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215027&pageid=1&action=kboard_file_download&kboard-file-download-nonce=c6887f402a&file=file1",
   "page": 1,
   "services": [
     {
@@ -13,7 +13,7 @@
         "13:30",
         "15:30"
       ],
-      "leader": "예배인도 김경진 목사",
+      "leader": "",
       "order": [
         {
           "label": "예배로 부름",
@@ -30,11 +30,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 15,
+            "number": 26,
             "title": "",
-            "image": "assets/hymns/015.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -53,108 +53,110 @@
         },
         {
           "label": "성시교독",
-          "number": 83,
-          "reference": "빌립보서 4장",
+          "number": 104,
+          "reference": "종교개혁주일",
           "reading": {
             "lines": [
               {
                 "speaker": "leader",
-                "text": "주 안에서 항상 기뻐하라 내가 다시 말하노니 기뻐하라"
+                "text": "나의 힘이신 여호와여 내가 주를 사랑하나이다"
               },
               {
                 "speaker": "congregation",
-                "text": "너희 관용을 모든 사람에게 알게 하라 주께서 가까우시니라"
+                "text": "여호와는 나의 반석이시요 나의 요새시요 나를 건지시는 이시요"
               },
               {
                 "speaker": "leader",
-                "text": "아무것도 염려하지 말고 다만 모든 일에 기도와 간구로"
+                "text": "나의 하나님이시요 내가 그 안에 피할 나의 바위시요 나의 방패시요"
               },
               {
                 "speaker": "congregation",
-                "text": "너희 구할 것을 감사함으로 하나님께 아뢰라"
+                "text": "나의 구원의 뿔이시요 나의 산성이시로다"
               },
               {
                 "speaker": "leader",
-                "text": "그리하면 모든 지각에 뛰어난 하나님의 평강이"
+                "text": "예수께서 이르시되 오히려 하나님의 말씀을 듣고 지키는 자가 복이 있느니라 하시니라"
               },
               {
                 "speaker": "congregation",
-                "text": "그리스도 예수 안에서 너희 마음과 생각을 지키시리라"
+                "text": "내가 복음을 부끄러워하지 아니하노니"
               },
               {
                 "speaker": "leader",
-                "text": "끝으로 형제들아 무엇에든지 참되며 무엇에든지 경건하며 무엇에든지 옳으며"
+                "text": "이 복음은 모든 믿는 자에게 구원을 주시는 하나님의 능력이 됨이라"
               },
               {
                 "speaker": "congregation",
-                "text": "무엇에든지 정결하며 무엇에든지 사랑 받을 만하며 무엇에든지 칭찬 받을 만하며"
+                "text": "먼저는 유대인에게요 그리고 헬라인에게로다"
               },
               {
                 "speaker": "leader",
-                "text": "무슨 덕이 있든지 무슨 기림이 있든지 이것들을 생각하라"
+                "text": "복음에는 하나님의 의가 나타나서 믿음으로 믿음에 이르게 하나니"
               },
               {
                 "speaker": "congregation",
-                "text": "너희는 내게 배우고 받고 듣고 본 바를 행하라"
+                "text": "기록된 바 오직 의인은 믿음으로 말미암아 살리라 함과 같으니라"
+              },
+              {
+                "speaker": "leader",
+                "text": "너희가 내 말에 거하면 참으로 내 제자가 되고"
+              },
+              {
+                "speaker": "congregation",
+                "text": "진리를 알지니 진리가 너희를 자유롭게 하리라"
+              },
+              {
+                "speaker": "leader",
+                "text": "우리 주 예수 그리스도로 말미암아 우리에게 승리를 주시는 하나님께 감사하노니"
+              },
+              {
+                "speaker": "congregation",
+                "text": "그러므로 내 사랑하는 형제들아 견실하며 흔들리지 말고"
               },
               {
                 "speaker": "all",
-                "text": "그리하면 평강의 하나님이 너희와 함께 계시리라"
+                "text": "항상 주의 일에 더욱 힘쓰는 자들이 되라"
               }
             ],
-            "number": 83,
-            "reference": "4-9",
-            "title": "빌립보서 4장"
+            "number": 104,
+            "reference": "고전 15:57-58상",
+            "title": "종교개혁주일"
           },
           "participant": "앉아서"
         },
         {
           "label": "찬송",
           "hymn": {
-            "number": 85,
+            "number": 80,
             "title": "",
-            "image": "assets/hymns/085.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
         {
           "label": "기도",
-          "participants": "김주경 목사 · 홍선표 · 백광흠 · 박동찬 장로 · 임대성 청년부 부감",
+          "participants": "",
           "participant": "기도자"
         },
         {
           "label": "성경봉독",
-          "reference": "누가복음 1:76-79",
+          "reference": "말 4:1-2",
           "verses": [
             {
-              "reference": "누가복음 1:76",
-              "book": "누",
-              "chapter": 1,
-              "verse": 76,
-              "content": "이 아이여 네가 지극히 높으신 이의 선지자라 일컬음을 받고 주 앞에 앞서 가서 그 길을 준비하여"
+              "reference": "말라기 4:1",
+              "book": "말",
+              "chapter": 4,
+              "verse": 1,
+              "content": "만군의 여호와가 이르노라 보라 용광로 불 같은 날이 이르리니 교만한 자와 악을 행하는 자는 다 지푸라기 같을 것이라 그 이르는 날에 그들을 살라 그 뿌리와 가지를 남기지 아니할 것이로되"
             },
             {
-              "reference": "누가복음 1:77",
-              "book": "누",
-              "chapter": 1,
-              "verse": 77,
-              "content": "주의 백성에게 그 죄 사함으로 말미암는 구원을 알게 하리니"
-            },
-            {
-              "reference": "누가복음 1:78",
-              "book": "누",
-              "chapter": 1,
-              "verse": 78,
-              "content": "이는 우리 하나님의 긍휼로 인함이라 이로써 돋는 해가 위로부터 우리에게 임하여"
-            },
-            {
-              "reference": "누가복음 1:79",
-              "book": "누",
-              "chapter": 1,
-              "verse": 79,
-              "content": "어둠과 죽음의 그늘에 앉은 자에게 비치고 우리 발을 평강의 길로 인도하시리로다 하니라"
+              "reference": "말라기 4:2",
+              "book": "말",
+              "chapter": 4,
+              "verse": 2,
+              "content": "내 이름을 경외하는 너희에게는 공의로운 해가 떠올라서 치료하는 광선을 비추리니 너희가 나가서 외양간에서 나온 송아지 같이 뛰리라"
             }
           ],
           "participant": "인도자"
@@ -162,33 +164,32 @@
         {
           "label": "찬양",
           "items": [
-            "진실하신 친구 - Arr. John M.rasley 베다니",
-            "성부의 아들이여 - A. Vivaldi 호산나",
-            "하나님의 전신갑주 - 김신웅 시온",
-            "하늘의 아버지 - G. F. Handel 할렐루야",
-            "하나님 없이는 - 김재훈 에벤에셀"
+            "내 주는 강한 성이요 - Arr. Gordon Young 베다니",
+            "내 주는 강한 성이요 - Arr. Mark Hayes 호산나",
+            "너의인아 오직 믿음으로 - 이민형 시온",
+            "십자가 군병 - Arr. H. J. Lacey 할렐루야",
+            "반석 위에 - Arr. 김선민 에벤에셀"
           ],
           "participant": "찬양대"
         },
         {
           "label": "말씀",
-          "title": "그늘에 비치는 따뜻한 빛",
-          "preacher": "예배인도 김경진 목사",
+          "title": "정화하고 치유하는 빛 (1~3부)",
+          "preacher": "",
           "participant": "설교자"
         },
         {
           "label": "기도",
-          "participant": "설교자",
-          "participants": "김주경 목사 · 홍선표 · 백광흠 · 박동찬 장로 · 임대성 청년부 부감"
+          "participant": "설교자"
         },
         {
           "label": "찬송",
           "hymn": {
-            "number": 428,
+            "number": 552,
             "title": "",
-            "image": "assets/hymns/428.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -210,11 +211,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 335,
+            "number": 585,
             "title": "",
-            "image": "assets/hymns/335.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
@@ -230,37 +231,37 @@
       ],
       "timeOverrides": {
         "07:30": {
-          "prayer": "김주경 목사",
+          "prayer": "",
           "praise": [
-            "진실하신 친구 - Arr. John M.rasley 베다니"
+            "내 주는 강한 성이요 - Arr. Gordon Young 베다니"
           ]
         },
         "09:30": {
-          "prayer": "홍선표",
+          "prayer": "",
           "praise": [
-            "성부의 아들이여 - A. Vivaldi 호산나"
+            "내 주는 강한 성이요 - Arr. Mark Hayes 호산나"
           ]
         },
         "11:30": {
-          "prayer": "백광흠",
+          "prayer": "",
           "praise": [
-            "하나님의 전신갑주 - 김신웅 시온"
+            "너의인아 오직 믿음으로 - 이민형 시온"
           ]
         },
         "13:30": {
-          "prayer": "박동찬 장로",
+          "prayer": "",
           "praise": [
-            "하늘의 아버지 - G. F. Handel 할렐루야"
+            "십자가 군병 - Arr. H. J. Lacey 할렐루야"
           ]
         },
         "15:30": {
-          "prayer": "임대성 청년부 부감",
+          "prayer": "",
           "praise": [
-            "하나님 없이는 - 김재훈 에벤에셀"
+            "반석 위에 - Arr. 김선민 에벤에셀"
           ]
         }
       }
     }
   ],
-  "nextWeekPrayer": "박형진 장로 · 장재원 목사 · 김덕영 · 장형기 장로 · 홍경화 청년부 부감"
+  "nextWeekPrayer": "김원석 · 정형진 장로 · 권정혁 목사 · 황성환 장로 · 김선용 청년부 부감"
 }
