@@ -1,7 +1,7 @@
 {
   "issueDate": "2026-10-25",
   "bulletinNumber": 2563,
-  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215027&pageid=1&action=kboard_file_download&kboard-file-download-nonce=c6887f402a&file=file1",
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215027&pageid=1&action=kboard_file_download&kboard-file-download-nonce=ec4df811cb&file=file1",
   "page": 1,
   "services": [
     {
@@ -31,9 +31,9 @@
           "label": "찬송",
           "hymn": {
             "number": 26,
-            "title": "구세주를 아는 이들",
+            "title": "",
             "image": "assets/hymns/026.jpg",
-            "verifiedTitle": "구세주를 아는 이들",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -128,9 +128,9 @@
           "label": "찬송",
           "hymn": {
             "number": 80,
-            "title": "천지에 있는 이름 중",
+            "title": "",
             "image": "assets/hymns/080.jpg",
-            "verifiedTitle": "천지에 있는 이름 중",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -186,9 +186,9 @@
           "label": "찬송",
           "hymn": {
             "number": 552,
-            "title": "아침 해가 돋을 때",
+            "title": "",
             "image": "assets/hymns/552.jpg",
-            "verifiedTitle": "아침 해가 돋을 때",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -197,9 +197,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "진리와 생명 되신 주",
+            "title": "",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "진리와 생명 되신 주",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -212,9 +212,9 @@
           "label": "찬송",
           "hymn": {
             "number": 585,
-            "title": "내주는 강한 성이요",
+            "title": "",
             "image": "assets/hymns/585.jpg",
-            "verifiedTitle": "내주는 강한 성이요",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
