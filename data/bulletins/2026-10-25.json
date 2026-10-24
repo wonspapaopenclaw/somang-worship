@@ -137,7 +137,7 @@
         },
         {
           "label": "기도",
-          "participants": "다같이",
+          "participants": "박형진 장로 · 장재원 목사 · 김덕영 · 장형기 장로 · 홍경화 청년부 부감",
           "participant": "기도자"
         },
         {
@@ -174,7 +174,7 @@
         },
         {
           "label": "말씀",
-          "title": "정화하고 치유하는 빛 (1~3부)",
+          "title": "정화하고 치유하는 빛 (1~3부) / (4부) 장재원 목사, (5부) 권정혁 목사",
           "preacher": "",
           "participant": "설교자"
         },
@@ -231,31 +231,31 @@
       ],
       "timeOverrides": {
         "07:30": {
-          "prayer": "다같이",
+          "prayer": "박형진 장로",
           "praise": [
             "내 주는 강한 성이요 - Arr. Gordon Young 베다니"
           ]
         },
         "09:30": {
-          "prayer": "",
+          "prayer": "장재원 목사",
           "praise": [
             "내 주는 강한 성이요 - Arr. Mark Hayes 호산나"
           ]
         },
         "11:30": {
-          "prayer": "",
+          "prayer": "김덕영",
           "praise": [
             "너의인아 오직 믿음으로 - 이민형 시온"
           ]
         },
         "13:30": {
-          "prayer": "",
+          "prayer": "장형기 장로",
           "praise": [
             "십자가 군병 - Arr. H. J. Lacey 할렐루야"
           ]
         },
         "15:30": {
-          "prayer": "",
+          "prayer": "홍경화 청년부 부감",
           "praise": [
             "반석 위에 - Arr. 김선민 에벤에셀"
           ]
