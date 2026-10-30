@@ -1,7 +1,7 @@
 {
-  "issueDate": "2026-10-25",
-  "bulletinNumber": 2563,
-  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215027&pageid=1&action=kboard_file_download&kboard-file-download-nonce=ec4df811cb&file=file1",
+  "issueDate": "2026-11-11",
+  "bulletinNumber": 5292026,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215805&pageid=1&action=kboard_file_download&kboard-file-download-nonce=48c9571668&file=file1",
   "page": 1,
   "services": [
     {
@@ -13,7 +13,7 @@
         "13:30",
         "15:30"
       ],
-      "leader": "1~3부 김경진 목사, 4부 장재원 목사, 5부 권정혁 목사",
+      "leader": "예배인도 김경진 목사",
       "order": [
         {
           "label": "예배로 부름",
@@ -30,11 +30,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 26,
+            "number": 32,
             "title": "",
-            "image": "assets/hymns/026.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -53,110 +53,97 @@
         },
         {
           "label": "성시교독",
-          "number": 104,
-          "reference": "종교개혁주일",
+          "number": 84,
+          "reference": "히브리서 11장",
           "reading": {
             "lines": [
               {
                 "speaker": "leader",
-                "text": "나의 힘이신 여호와여 내가 주를 사랑하나이다"
+                "text": "믿음은 바라는 것들의 실상이요 보이지 않는 것들의 증거니"
               },
               {
                 "speaker": "congregation",
-                "text": "여호와는 나의 반석이시요 나의 요새시요 나를 건지시는 이시요"
+                "text": "선진들이 이로써 증거를 얻었느니라"
               },
               {
                 "speaker": "leader",
-                "text": "나의 하나님이시요 내가 그 안에 피할 나의 바위시요 나의 방패시요"
+                "text": "믿음으로 모든 세계가 하나님의 말씀으로 지어진 줄을 우리가 아나니"
               },
               {
                 "speaker": "congregation",
-                "text": "나의 구원의 뿔이시요 나의 산성이시로다"
+                "text": "보이는 것은 나타난 것으로 말미암아 된 것이 아니니라"
               },
               {
                 "speaker": "leader",
-                "text": "예수께서 이르시되 오히려 하나님의 말씀을 듣고 지키는 자가 복이 있느니라 하시니라"
+                "text": "믿음으로 아벨은 가인보다 더 나은 제사를 하나님께 드림으로 의로운 자라 하시는 증거를 얻었으니"
               },
               {
                 "speaker": "congregation",
-                "text": "내가 복음을 부끄러워하지 아니하노니"
+                "text": "하나님이 그 예물에 대하여 증언하심이라 그가 죽었으나 그 믿음으로써 지금도 말하느니라"
               },
               {
                 "speaker": "leader",
-                "text": "이 복음은 모든 믿는 자에게 구원을 주시는 하나님의 능력이 됨이라"
+                "text": "믿음으로 에녹은 죽음을 보지 않고 옮겨졌으니 하나님이 그를 옮기심으로 다시 보이지 아니하였느니라"
               },
               {
                 "speaker": "congregation",
-                "text": "먼저는 유대인에게요 그리고 헬라인에게로다"
+                "text": "그는 옮겨지기 전에 하나님을 기쁘시게 하는 자라 하는 증거를 받았느니라"
               },
               {
                 "speaker": "leader",
-                "text": "복음에는 하나님의 의가 나타나서 믿음으로 믿음에 이르게 하나니"
+                "text": "믿음이 없이는 하나님을 기쁘시게 하지 못하나니"
               },
               {
                 "speaker": "congregation",
-                "text": "기록된 바 오직 의인은 믿음으로 말미암아 살리라 함과 같으니라"
-              },
-              {
-                "speaker": "leader",
-                "text": "너희가 내 말에 거하면 참으로 내 제자가 되고"
-              },
-              {
-                "speaker": "congregation",
-                "text": "진리를 알지니 진리가 너희를 자유롭게 하리라"
-              },
-              {
-                "speaker": "leader",
-                "text": "우리 주 예수 그리스도로 말미암아 우리에게 승리를 주시는 하나님께 감사하노니"
-              },
-              {
-                "speaker": "congregation",
-                "text": "그러므로 내 사랑하는 형제들아 견실하며 흔들리지 말고"
-              },
-              {
-                "speaker": "all",
-                "text": "항상 주의 일에 더욱 힘쓰는 자들이 되라"
+                "text": "하나님께 나아가는 자는 반드시 그가 계신 것과 또한 그가 자기를 찾는 자들에게 상 주시는 이심을 믿어야 할지니라"
               }
             ],
-            "number": 104,
-            "reference": "고전 15:57-58상",
-            "title": "종교개혁주일"
+            "number": 84,
+            "reference": "1-6",
+            "title": "히브리서 11장"
           },
           "participant": "앉아서"
         },
         {
           "label": "찬송",
           "hymn": {
-            "number": 80,
+            "number": 370,
             "title": "",
-            "image": "assets/hymns/080.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
         {
           "label": "기도",
-          "participants": "박형진 장로 · 장재원 목사 · 김덕영 · 장형기 장로 · 홍경화 청년부 부감",
+          "participants": "",
           "participant": "기도자"
         },
         {
           "label": "성경봉독",
-          "reference": "말 4:1-2",
+          "reference": "딤후 4:6-8",
           "verses": [
             {
-              "reference": "말라기 4:1",
-              "book": "말",
+              "reference": "디모데후서 4:6",
+              "book": "디",
               "chapter": 4,
-              "verse": 1,
-              "content": "만군의 여호와가 이르노라 보라 용광로 불 같은 날이 이르리니 교만한 자와 악을 행하는 자는 다 지푸라기 같을 것이라 그 이르는 날에 그들을 살라 그 뿌리와 가지를 남기지 아니할 것이로되"
+              "verse": 6,
+              "content": "전제와 같이 내가 벌써 부어지고 나의 떠날 시각이 가까웠도다"
             },
             {
-              "reference": "말라기 4:2",
-              "book": "말",
+              "reference": "디모데후서 4:7",
+              "book": "디",
               "chapter": 4,
-              "verse": 2,
-              "content": "내 이름을 경외하는 너희에게는 공의로운 해가 떠올라서 치료하는 광선을 비추리니 너희가 나가서 외양간에서 나온 송아지 같이 뛰리라"
+              "verse": 7,
+              "content": "나는 선한 싸움을 싸우고 나의 달려갈 길을 마치고 믿음을 지켰으니"
+            },
+            {
+              "reference": "디모데후서 4:8",
+              "book": "디",
+              "chapter": 4,
+              "verse": 8,
+              "content": "이제 후로는 나를 위하여 의의 면류관이 예비되었으므로 주 곧 의로우신 재판장이 그 날에 내게 주실 것이며 내게만 아니라 주의 나타나심을 사모하는 모든 자에게도니라"
             }
           ],
           "participant": "인도자"
@@ -164,18 +151,18 @@
         {
           "label": "찬양",
           "items": [
-            "내 주는 강한 성이요 - Arr. Gordon Young 베다니",
-            "내 주는 강한 성이요 - Arr. Mark Hayes 호산나",
-            "너의인아 오직 믿음으로 - 이민형 시온",
-            "십자가 군병 - Arr. H. J. Lacey 할렐루야",
-            "반석 위에 - Arr. 김선민 에벤에셀"
+            "주님이 입으신 그 옷은 - Arr. Emil Soderstrom 베다니",
+            "인류의 기쁨이 되시는 예수 - J.S. Bach 호산나",
+            "주의 친절한 팔에 안기세 - Arr. 이호준 시온",
+            "인애하신 구세주여 - Arr. Peter Marshall 할렐루야",
+            "변치 않는 주님의 사랑 - Arr. 안재숙 에벤에셀"
           ],
           "participant": "찬양대"
         },
         {
           "label": "말씀",
-          "title": "정화하고 치유하는 빛",
-          "preacher": "1~3부 김경진 목사, 4부 장재원 목사, 5부 권정혁 목사",
+          "title": "믿음을 지킨다는 것",
+          "preacher": "예배인도 김경진 목사",
           "participant": "설교자"
         },
         {
@@ -185,11 +172,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 552,
+            "number": 336,
             "title": "",
-            "image": "assets/hymns/552.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -211,9 +198,9 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 585,
+            "number": 545,
             "title": "",
-            "image": "assets/hymns/585.jpg",
+            "image": "assets/hymns/545.jpg",
             "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
@@ -231,37 +218,37 @@
       ],
       "timeOverrides": {
         "07:30": {
-          "prayer": "박형진 장로",
+          "prayer": "",
           "praise": [
-            "내 주는 강한 성이요 - Arr. Gordon Young 베다니"
+            "주님이 입으신 그 옷은 - Arr. Emil Soderstrom 베다니"
           ]
         },
         "09:30": {
-          "prayer": "장재원 목사",
+          "prayer": "",
           "praise": [
-            "내 주는 강한 성이요 - Arr. Mark Hayes 호산나"
+            "인류의 기쁨이 되시는 예수 - J.S. Bach 호산나"
           ]
         },
         "11:30": {
-          "prayer": "김덕영",
+          "prayer": "",
           "praise": [
-            "너의인아 오직 믿음으로 - 이민형 시온"
+            "주의 친절한 팔에 안기세 - Arr. 이호준 시온"
           ]
         },
         "13:30": {
-          "prayer": "장형기 장로",
+          "prayer": "",
           "praise": [
-            "십자가 군병 - Arr. H. J. Lacey 할렐루야"
+            "인애하신 구세주여 - Arr. Peter Marshall 할렐루야"
           ]
         },
         "15:30": {
-          "prayer": "홍경화 청년부 부감",
+          "prayer": "",
           "praise": [
-            "반석 위에 - Arr. 김선민 에벤에셀"
+            "변치 않는 주님의 사랑 - Arr. 안재숙 에벤에셀"
           ]
         }
       }
     }
   ],
-  "nextWeekPrayer": "김원석 · 정형진 장로 · 권정혁 목사 · 황성환 장로 · 김선용 청년부 부감"
+  "nextWeekPrayer": "지준·박찬만·양성욱 장로·박형진 목사·장성은 청년부 부감"
 }
