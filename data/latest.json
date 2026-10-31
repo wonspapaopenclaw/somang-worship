@@ -1,7 +1,7 @@
 {
   "issueDate": "2026-11-11",
   "bulletinNumber": 5292026,
-  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215805&pageid=1&action=kboard_file_download&kboard-file-download-nonce=48c9571668&file=file1",
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215805&pageid=1&action=kboard_file_download&kboard-file-download-nonce=50bb8b447e&file=file1",
   "page": 1,
   "services": [
     {
@@ -31,9 +31,9 @@
           "label": "찬송",
           "hymn": {
             "number": 32,
-            "title": "만유의 주재",
+            "title": "",
             "image": "assets/hymns/032.jpg",
-            "verifiedTitle": "만유의 주재",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -108,9 +108,9 @@
           "label": "찬송",
           "hymn": {
             "number": 370,
-            "title": "주안에 있는 나에게",
+            "title": "",
             "image": "assets/hymns/370.jpg",
-            "verifiedTitle": "주안에 있는 나에게",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -173,9 +173,9 @@
           "label": "찬송",
           "hymn": {
             "number": 336,
-            "title": "환난과 핍박 중에도",
+            "title": "",
             "image": "assets/hymns/336.jpg",
-            "verifiedTitle": "환난과 핍박 중에도",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -184,9 +184,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "진리와 생명 되신 주",
+            "title": "",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "진리와 생명 되신 주",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -199,9 +199,9 @@
           "label": "찬송",
           "hymn": {
             "number": 545,
-            "title": "이 눈에 아무 증거 아니 뵈어도",
+            "title": "",
             "image": "assets/hymns/545.jpg",
-            "verifiedTitle": "이 눈에 아무 증거 아니 뵈어도",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
