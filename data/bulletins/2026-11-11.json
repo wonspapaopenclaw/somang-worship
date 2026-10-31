@@ -31,9 +31,9 @@
           "label": "찬송",
           "hymn": {
             "number": 32,
-            "title": "",
+            "title": "만유의 주재",
             "image": "assets/hymns/032.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "만유의 주재",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -108,9 +108,9 @@
           "label": "찬송",
           "hymn": {
             "number": 370,
-            "title": "",
+            "title": "주안에 있는 나에게",
             "image": "assets/hymns/370.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "주안에 있는 나에게",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -173,9 +173,9 @@
           "label": "찬송",
           "hymn": {
             "number": 336,
-            "title": "",
+            "title": "환난과 핍박 중에도",
             "image": "assets/hymns/336.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "환난과 핍박 중에도",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -184,9 +184,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "",
+            "title": "진리와 생명 되신 주",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "진리와 생명 되신 주",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -199,9 +199,9 @@
           "label": "찬송",
           "hymn": {
             "number": 545,
-            "title": "",
+            "title": "이 눈에 아무 증거 아니 뵈어도",
             "image": "assets/hymns/545.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "이 눈에 아무 증거 아니 뵈어도",
             "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",

@@ -1,0 +1,254 @@
+{
+  "issueDate": "2026-11-11",
+  "bulletinNumber": 5292026,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215805&pageid=1&action=kboard_file_download&kboard-file-download-nonce=48c9571668&file=file1",
+  "page": 1,
+  "services": [
+    {
+      "name": "주일예배",
+      "times": [
+        "07:30",
+        "09:30",
+        "11:30",
+        "13:30",
+        "15:30"
+      ],
+      "leader": "예배인도 김경진 목사",
+      "order": [
+        {
+          "label": "예배로 부름",
+          "participant": "인도자"
+        },
+        {
+          "label": "송영",
+          "participant": "찬양대"
+        },
+        {
+          "label": "기원",
+          "participant": "인도자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 32,
+            "title": "만유의 주재",
+            "image": "assets/hymns/032.jpg",
+            "verifiedTitle": "만유의 주재",
+            "verificationStatus": "MATCH"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "참회기도",
+          "participant": "다같이"
+        },
+        {
+          "label": "사죄확인",
+          "participant": "인도자"
+        },
+        {
+          "label": "신앙고백",
+          "name": "사도신경",
+          "participant": "다같이"
+        },
+        {
+          "label": "성시교독",
+          "number": 84,
+          "reference": "히브리서 11장",
+          "reading": {
+            "lines": [
+              {
+                "speaker": "leader",
+                "text": "믿음은 바라는 것들의 실상이요 보이지 않는 것들의 증거니"
+              },
+              {
+                "speaker": "congregation",
+                "text": "선진들이 이로써 증거를 얻었느니라"
+              },
+              {
+                "speaker": "leader",
+                "text": "믿음으로 모든 세계가 하나님의 말씀으로 지어진 줄을 우리가 아나니"
+              },
+              {
+                "speaker": "congregation",
+                "text": "보이는 것은 나타난 것으로 말미암아 된 것이 아니니라"
+              },
+              {
+                "speaker": "leader",
+                "text": "믿음으로 아벨은 가인보다 더 나은 제사를 하나님께 드림으로 의로운 자라 하시는 증거를 얻었으니"
+              },
+              {
+                "speaker": "congregation",
+                "text": "하나님이 그 예물에 대하여 증언하심이라 그가 죽었으나 그 믿음으로써 지금도 말하느니라"
+              },
+              {
+                "speaker": "leader",
+                "text": "믿음으로 에녹은 죽음을 보지 않고 옮겨졌으니 하나님이 그를 옮기심으로 다시 보이지 아니하였느니라"
+              },
+              {
+                "speaker": "congregation",
+                "text": "그는 옮겨지기 전에 하나님을 기쁘시게 하는 자라 하는 증거를 받았느니라"
+              },
+              {
+                "speaker": "leader",
+                "text": "믿음이 없이는 하나님을 기쁘시게 하지 못하나니"
+              },
+              {
+                "speaker": "congregation",
+                "text": "하나님께 나아가는 자는 반드시 그가 계신 것과 또한 그가 자기를 찾는 자들에게 상 주시는 이심을 믿어야 할지니라"
+              }
+            ],
+            "number": 84,
+            "reference": "1-6",
+            "title": "히브리서 11장"
+          },
+          "participant": "앉아서"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 370,
+            "title": "주안에 있는 나에게",
+            "image": "assets/hymns/370.jpg",
+            "verifiedTitle": "주안에 있는 나에게",
+            "verificationStatus": "MATCH"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "기도",
+          "participants": "",
+          "participant": "기도자"
+        },
+        {
+          "label": "성경봉독",
+          "reference": "딤후 4:6-8",
+          "verses": [
+            {
+              "reference": "디모데후서 4:6",
+              "book": "디",
+              "chapter": 4,
+              "verse": 6,
+              "content": "전제와 같이 내가 벌써 부어지고 나의 떠날 시각이 가까웠도다"
+            },
+            {
+              "reference": "디모데후서 4:7",
+              "book": "디",
+              "chapter": 4,
+              "verse": 7,
+              "content": "나는 선한 싸움을 싸우고 나의 달려갈 길을 마치고 믿음을 지켰으니"
+            },
+            {
+              "reference": "디모데후서 4:8",
+              "book": "디",
+              "chapter": 4,
+              "verse": 8,
+              "content": "이제 후로는 나를 위하여 의의 면류관이 예비되었으므로 주 곧 의로우신 재판장이 그 날에 내게 주실 것이며 내게만 아니라 주의 나타나심을 사모하는 모든 자에게도니라"
+            }
+          ],
+          "participant": "인도자"
+        },
+        {
+          "label": "찬양",
+          "items": [
+            "주님이 입으신 그 옷은 - Arr. Emil Soderstrom 베다니",
+            "인류의 기쁨이 되시는 예수 - J.S. Bach 호산나",
+            "주의 친절한 팔에 안기세 - Arr. 이호준 시온",
+            "인애하신 구세주여 - Arr. Peter Marshall 할렐루야",
+            "변치 않는 주님의 사랑 - Arr. 안재숙 에벤에셀"
+          ],
+          "participant": "찬양대"
+        },
+        {
+          "label": "말씀",
+          "title": "믿음을 지킨다는 것",
+          "preacher": "예배인도 김경진 목사",
+          "participant": "설교자"
+        },
+        {
+          "label": "기도",
+          "participant": "설교자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 336,
+            "title": "환난과 핍박 중에도",
+            "image": "assets/hymns/336.jpg",
+            "verifiedTitle": "환난과 핍박 중에도",
+            "verificationStatus": "MATCH"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "헌금",
+          "hymn": {
+            "number": 630,
+            "title": "진리와 생명 되신 주",
+            "image": "assets/hymns/630.jpg",
+            "verifiedTitle": "진리와 생명 되신 주",
+            "verificationStatus": "MATCH"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "헌금기도",
+          "participant": "인도자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 545,
+            "title": "이 눈에 아무 증거 아니 뵈어도",
+            "image": "assets/hymns/545.jpg",
+            "verifiedTitle": "이 눈에 아무 증거 아니 뵈어도",
+            "verificationStatus": "MATCH"
+          },
+          "note": "끝절은 일어서서",
+          "participant": "다같이"
+        },
+        {
+          "label": "축도",
+          "participant": "설교자"
+        },
+        {
+          "label": "송영",
+          "participant": "찬양대"
+        }
+      ],
+      "timeOverrides": {
+        "07:30": {
+          "prayer": "",
+          "praise": [
+            "주님이 입으신 그 옷은 - Arr. Emil Soderstrom 베다니"
+          ]
+        },
+        "09:30": {
+          "prayer": "",
+          "praise": [
+            "인류의 기쁨이 되시는 예수 - J.S. Bach 호산나"
+          ]
+        },
+        "11:30": {
+          "prayer": "",
+          "praise": [
+            "주의 친절한 팔에 안기세 - Arr. 이호준 시온"
+          ]
+        },
+        "13:30": {
+          "prayer": "",
+          "praise": [
+            "인애하신 구세주여 - Arr. Peter Marshall 할렐루야"
+          ]
+        },
+        "15:30": {
+          "prayer": "",
+          "praise": [
+            "변치 않는 주님의 사랑 - Arr. 안재숙 에벤에셀"
+          ]
+        }
+      }
+    }
+  ],
+  "nextWeekPrayer": "지준·박찬만·양성욱 장로·박형진 목사·장성은 청년부 부감"
+}
