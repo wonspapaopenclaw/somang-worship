@@ -1,7 +1,7 @@
 {
-  "issueDate": "2026-11-01",
-  "bulletinNumber": 2564,
-  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215805&pageid=1&action=kboard_file_download&kboard-file-download-nonce=50bb8b447e&file=file1",
+  "issueDate": "2026-11-08",
+  "bulletinNumber": 2565,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215850&pageid=1&action=kboard_file_download&kboard-file-download-nonce=ab31dca900&file=file1",
   "page": 1,
   "services": [
     {
@@ -13,7 +13,7 @@
         "13:30",
         "15:30"
       ],
-      "leader": "예배인도 김경진 목사",
+      "leader": "오전 7:30, 9:30, 11:30   |   오후 1:30, 3:30   예배인도 김경진 목사",
       "order": [
         {
           "label": "예배로 부름",
@@ -30,10 +30,10 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 32,
-            "title": "만유의 주재",
-            "image": "assets/hymns/032.jpg",
-            "verifiedTitle": "만유의 주재",
+            "number": 19,
+            "title": "",
+            "image": "assets/hymns/019.jpg",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -53,64 +53,72 @@
         },
         {
           "label": "성시교독",
-          "number": 84,
-          "reference": "히브리서 11장",
+          "number": 85,
+          "reference": "요한1서 4장",
           "reading": {
             "lines": [
               {
                 "speaker": "leader",
-                "text": "믿음은 바라는 것들의 실상이요 보이지 않는 것들의 증거니"
+                "text": "사랑하는 자들아 우리가 서로 사랑하자 사랑은 하나님께 속한 것이니"
               },
               {
                 "speaker": "congregation",
-                "text": "선진들이 이로써 증거를 얻었느니라"
+                "text": "사랑하는 자마다 하나님으로부터 나서 하나님을 알고"
               },
               {
                 "speaker": "leader",
-                "text": "믿음으로 모든 세계가 하나님의 말씀으로 지어진 줄을 우리가 아나니"
+                "text": "사랑하지 아니하는 자는 하나님을 알지 못하나니"
               },
               {
                 "speaker": "congregation",
-                "text": "보이는 것은 나타난 것으로 말미암아 된 것이 아니니라"
+                "text": "이는 하나님은 사랑이심이라"
               },
               {
                 "speaker": "leader",
-                "text": "믿음으로 아벨은 가인보다 더 나은 제사를 하나님께 드림으로 의로운 자라 하시는 증거를 얻었으니"
+                "text": "하나님의 사랑이 우리에게 이렇게 나타난 바 되었으니"
               },
               {
                 "speaker": "congregation",
-                "text": "하나님이 그 예물에 대하여 증언하심이라 그가 죽었으나 그 믿음으로써 지금도 말하느니라"
+                "text": "하나님이 자기의 독생자를 세상에 보내심은 그로 말미암아 우리를 살리려 하심이라"
               },
               {
                 "speaker": "leader",
-                "text": "믿음으로 에녹은 죽음을 보지 않고 옮겨졌으니 하나님이 그를 옮기심으로 다시 보이지 아니하였느니라"
+                "text": "사랑은 여기 있으니 우리가 하나님을 사랑한 것이 아니요"
               },
               {
                 "speaker": "congregation",
-                "text": "그는 옮겨지기 전에 하나님을 기쁘시게 하는 자라 하는 증거를 받았느니라"
+                "text": "하나님이 우리를 사랑하사 우리 죄를 속하기 위하여 화목 제물로 그 아들을 보내셨음이라"
               },
               {
                 "speaker": "leader",
-                "text": "믿음이 없이는 하나님을 기쁘시게 하지 못하나니"
+                "text": "사랑하는 자들아 하나님이 이같이 우리를 사랑하셨은즉"
               },
               {
                 "speaker": "congregation",
-                "text": "하나님께 나아가는 자는 반드시 그가 계신 것과 또한 그가 자기를 찾는 자들에게 상 주시는 이심을 믿어야 할지니라"
+                "text": "우리도 서로 사랑하는 것이 마땅하도다"
+              },
+              {
+                "speaker": "leader",
+                "text": "어느 때나 하나님을 본 사람이 없으되 만일 우리가 서로 사랑하면"
+              },
+              {
+                "speaker": "congregation",
+                "text": "하나님이 우리 안에 거하시고 그의 사랑이 우리 안에 온전히 이루어지느니라"
               }
             ],
-            "number": 84,
-            "reference": "1-6",
-            "title": "히브리서 11장"
+            "number": 85,
+            "reference": "7-12",
+            "title": "요한1서 4장"
           },
           "participant": "앉아서"
         },
         {
           "label": "찬송",
           "hymn": {
-            "number": 370,
-            "title": "주안에 있는 나에게",
-            "image": "assets/hymns/370.jpg",
-            "verifiedTitle": "주안에 있는 나에게",
+            "number": 288,
+            "title": "",
+            "image": "assets/hymns/288.jpg",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -122,28 +130,49 @@
         },
         {
           "label": "성경봉독",
-          "reference": "딤후 4:6-8",
+          "reference": "요한복음 11:32-37",
           "verses": [
             {
-              "reference": "디모데후서 4:6",
-              "book": "디",
-              "chapter": 4,
-              "verse": 6,
-              "content": "전제와 같이 내가 벌써 부어지고 나의 떠날 시각이 가까웠도다"
+              "reference": "요한복음 11:32",
+              "book": "요",
+              "chapter": 11,
+              "verse": 32,
+              "content": "마리아가 예수 계신 곳에 가서 뵈옵고 그 발 앞에 엎드리어 이르되 주께서 여기 계셨더라면 내 오라버니가 죽지 아니하였겠나이다 하더라"
             },
             {
-              "reference": "디모데후서 4:7",
-              "book": "디",
-              "chapter": 4,
-              "verse": 7,
-              "content": "나는 선한 싸움을 싸우고 나의 달려갈 길을 마치고 믿음을 지켰으니"
+              "reference": "요한복음 11:33",
+              "book": "요",
+              "chapter": 11,
+              "verse": 33,
+              "content": "예수께서 그가 우는 것과 또 함께 온 유대인들이 우는 것을 보시고 심령에 비통히 여기시고 불쌍히 여기사"
             },
             {
-              "reference": "디모데후서 4:8",
-              "book": "디",
-              "chapter": 4,
-              "verse": 8,
-              "content": "이제 후로는 나를 위하여 의의 면류관이 예비되었으므로 주 곧 의로우신 재판장이 그 날에 내게 주실 것이며 내게만 아니라 주의 나타나심을 사모하는 모든 자에게도니라"
+              "reference": "요한복음 11:34",
+              "book": "요",
+              "chapter": 11,
+              "verse": 34,
+              "content": "이르시되 그를 어디 두었느냐 이르되 주여 와서 보옵소서 하니"
+            },
+            {
+              "reference": "요한복음 11:35",
+              "book": "요",
+              "chapter": 11,
+              "verse": 35,
+              "content": "예수께서 눈물을 흘리시더라"
+            },
+            {
+              "reference": "요한복음 11:36",
+              "book": "요",
+              "chapter": 11,
+              "verse": 36,
+              "content": "이에 유대인들이 말하되 보라 그를 얼마나 사랑하셨는가 하며"
+            },
+            {
+              "reference": "요한복음 11:37",
+              "book": "요",
+              "chapter": 11,
+              "verse": 37,
+              "content": "그 중 어떤 이는 말하되 맹인의 눈을 뜨게 한 이 사람이 그 사람은 죽지 않게 할 수 없었더냐 하더라"
             }
           ],
           "participant": "인도자"
@@ -151,18 +180,18 @@
         {
           "label": "찬양",
           "items": [
-            "주님이 입으신 그 옷은 - Arr. Emil Soderstrom 베다니",
-            "인류의 기쁨이 되시는 예수 - J.S. Bach 호산나",
-            "주의 친절한 팔에 안기세 - Arr. 이호준 시온",
-            "인애하신 구세주여 - Arr. Peter Marshall 할렐루야",
-            "변치 않는 주님의 사랑 - Arr. 안재숙 에벤에셀"
+            "무화과 나무의 비유 - 김신웅   베다니",
+            "거룩하시다 - Charles Gounod   호산나",
+            "선한 목자 되신 우리 주 - Arr. 김기영   시온",
+            "주의 곁에 있을 때 - Arr. Roger C. Wilson   할렐루야",
+            "선한 싸움 - 신현민   에벤에셀"
           ],
           "participant": "찬양대"
         },
         {
           "label": "말씀",
-          "title": "믿음을 지킨다는 것",
-          "preacher": "예배인도 김경진 목사",
+          "title": "하나님의 무능력",
+          "preacher": "오전 7:30, 9:30, 11:30   |   오후 1:30, 3:30   예배인도 김경진 목사",
           "participant": "설교자"
         },
         {
@@ -172,10 +201,10 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 336,
-            "title": "환난과 핍박 중에도",
-            "image": "assets/hymns/336.jpg",
-            "verifiedTitle": "환난과 핍박 중에도",
+            "number": 413,
+            "title": "",
+            "image": "assets/hymns/413.jpg",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -184,9 +213,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "진리와 생명 되신 주",
+            "title": "",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "진리와 생명 되신 주",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -198,10 +227,10 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 545,
-            "title": "이 눈에 아무 증거 아니 뵈어도",
-            "image": "assets/hymns/545.jpg",
-            "verifiedTitle": "이 눈에 아무 증거 아니 뵈어도",
+            "number": 384,
+            "title": "",
+            "image": "assets/hymns/384.jpg",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
@@ -220,35 +249,35 @@
         "07:30": {
           "prayer": "",
           "praise": [
-            "주님이 입으신 그 옷은 - Arr. Emil Soderstrom 베다니"
+            "무화과 나무의 비유 - 김신웅   베다니"
           ]
         },
         "09:30": {
           "prayer": "",
           "praise": [
-            "인류의 기쁨이 되시는 예수 - J.S. Bach 호산나"
+            "거룩하시다 - Charles Gounod   호산나"
           ]
         },
         "11:30": {
           "prayer": "",
           "praise": [
-            "주의 친절한 팔에 안기세 - Arr. 이호준 시온"
+            "선한 목자 되신 우리 주 - Arr. 김기영   시온"
           ]
         },
         "13:30": {
           "prayer": "",
           "praise": [
-            "인애하신 구세주여 - Arr. Peter Marshall 할렐루야"
+            "주의 곁에 있을 때 - Arr. Roger C. Wilson   할렐루야"
           ]
         },
         "15:30": {
           "prayer": "",
           "praise": [
-            "변치 않는 주님의 사랑 - Arr. 안재숙 에벤에셀"
+            "선한 싸움 - 신현민   에벤에셀"
           ]
         }
       }
     }
   ],
-  "nextWeekPrayer": "지준·박찬만·양성욱 장로·박형진 목사·장성은 청년부 부감"
+  "nextWeekPrayer": "추상현·문호주·김윤기·정의진·조지훈 목사"
 }
