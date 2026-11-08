@@ -31,9 +31,9 @@
           "label": "찬송",
           "hymn": {
             "number": 19,
-            "title": "",
+            "title": "찬양하는 소리 있어",
             "image": "assets/hymns/019.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "찬양하는 소리 있어",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -116,9 +116,9 @@
           "label": "찬송",
           "hymn": {
             "number": 288,
-            "title": "",
+            "title": "예수를 나의 구주 삼고",
             "image": "assets/hymns/288.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "예수를 나의 구주 삼고",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -133,42 +133,42 @@
           "reference": "요한복음 11:32-37",
           "verses": [
             {
-              "reference": "요한복음 11:32",
+              "reference": "요 11:32",
               "book": "요",
               "chapter": 11,
               "verse": 32,
               "content": "마리아가 예수 계신 곳에 가서 뵈옵고 그 발 앞에 엎드리어 이르되 주께서 여기 계셨더라면 내 오라버니가 죽지 아니하였겠나이다 하더라"
             },
             {
-              "reference": "요한복음 11:33",
+              "reference": "요 11:33",
               "book": "요",
               "chapter": 11,
               "verse": 33,
               "content": "예수께서 그가 우는 것과 또 함께 온 유대인들이 우는 것을 보시고 심령에 비통히 여기시고 불쌍히 여기사"
             },
             {
-              "reference": "요한복음 11:34",
+              "reference": "요 11:34",
               "book": "요",
               "chapter": 11,
               "verse": 34,
               "content": "이르시되 그를 어디 두었느냐 이르되 주여 와서 보옵소서 하니"
             },
             {
-              "reference": "요한복음 11:35",
+              "reference": "요 11:35",
               "book": "요",
               "chapter": 11,
               "verse": 35,
               "content": "예수께서 눈물을 흘리시더라"
             },
             {
-              "reference": "요한복음 11:36",
+              "reference": "요 11:36",
               "book": "요",
               "chapter": 11,
               "verse": 36,
               "content": "이에 유대인들이 말하되 보라 그를 얼마나 사랑하셨는가 하며"
             },
             {
-              "reference": "요한복음 11:37",
+              "reference": "요 11:37",
               "book": "요",
               "chapter": 11,
               "verse": 37,
@@ -202,9 +202,9 @@
           "label": "찬송",
           "hymn": {
             "number": 413,
-            "title": "",
+            "title": "내 평생에 가는 길",
             "image": "assets/hymns/413.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "내 평생에 가는 길",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -213,9 +213,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "",
+            "title": "진리와 생명 되신 주",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "진리와 생명 되신 주",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -228,9 +228,9 @@
           "label": "찬송",
           "hymn": {
             "number": 384,
-            "title": "",
+            "title": "나의 갈길 다 가도록",
             "image": "assets/hymns/384.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "나의 갈길 다 가도록",
             "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
