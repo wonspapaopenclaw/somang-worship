@@ -245,32 +245,29 @@
       ],
       "timeOverrides": {
         "07:30": {
-          "prayer": "",
+          "praise": [
+            "찬양하세 오 예루살렘 - J. H. Maunder 베다니"
+          ]
+        },
+        "09:30": {
           "praise": [
             "하나님께 감사하라 - F. Mendelssohn 호산나"
           ]
         },
-        "09:30": {
-          "prayer": "",
+        "11:30": {
           "praise": [
             "하나님께 감사하라 - F. Mendelssohn 시온"
           ]
         },
-        "11:30": {
-          "prayer": "",
+        "13:30": {
           "praise": [
             "추수 찬송 - Arr. R. E. Gerig 할렐루야"
           ]
         },
-        "13:30": {
-          "prayer": "",
+        "15:30": {
           "praise": [
             "추수 감사의 노래 - 이기경 에벤에셀"
           ]
-        },
-        "15:30": {
-          "prayer": "",
-          "praise": []
         }
       }
     }
