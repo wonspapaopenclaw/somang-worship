@@ -1,0 +1,279 @@
+{
+  "issueDate": "2026-11-15",
+  "bulletinNumber": 2566,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215882&pageid=1&action=kboard_file_download&kboard-file-download-nonce=77ffa7a680&file=file1",
+  "page": 1,
+  "services": [
+    {
+      "name": "주일예배",
+      "times": [
+        "07:30",
+        "09:30",
+        "11:30",
+        "13:30",
+        "15:30"
+      ],
+      "leader": "예배인도 김경진 목사",
+      "order": [
+        {
+          "label": "예배로 부름",
+          "participant": "인도자"
+        },
+        {
+          "label": "송영",
+          "participant": "찬양대"
+        },
+        {
+          "label": "기원",
+          "participant": "인도자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 590,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "참회기도",
+          "participant": "다같이"
+        },
+        {
+          "label": "사죄확인",
+          "participant": "인도자"
+        },
+        {
+          "label": "신앙고백",
+          "name": "사도신경",
+          "participant": "다같이"
+        },
+        {
+          "label": "성시교독",
+          "number": 105,
+          "reference": "감사절",
+          "reading": {
+            "lines": [
+              {
+                "speaker": "leader",
+                "text": "여호와께 감사하라 그는 선하시며"
+              },
+              {
+                "speaker": "congregation",
+                "text": "그 인자하심이 영원함이로다"
+              },
+              {
+                "speaker": "leader",
+                "text": "여호와께 감사하고 그의 이름을 불러 아뢰며"
+              },
+              {
+                "speaker": "congregation",
+                "text": "그가 하는 일을 만민 중에 알게 할지어다"
+              },
+              {
+                "speaker": "leader",
+                "text": "그들이 광야 사막 길에서 방황하며 거주할 성읍을 찾지 못하고"
+              },
+              {
+                "speaker": "congregation",
+                "text": "주리고 목이 말라 그들의 영혼이 그들 안에서 피곤하였도다"
+              },
+              {
+                "speaker": "leader",
+                "text": "이에 그들이 근심 중에 여호와께 부르짖으매"
+              },
+              {
+                "speaker": "congregation",
+                "text": "그들의 고통에서 건지시고 또 바른 길로 인도하사 거주할 성읍에 이르게 하셨도다"
+              },
+              {
+                "speaker": "leader",
+                "text": "여호와의 인자하심과 인생에게 행하신 기적으로 말미암아 그를 찬송할지로다"
+              },
+              {
+                "speaker": "congregation",
+                "text": "그가 사모하는 영혼에게 만족을 주시며 주린 영혼에게 좋은 것으로 채워주심이로다"
+              }
+            ],
+            "number": 105,
+            "reference": "시 107:4-9",
+            "title": "감사절(1)"
+          },
+          "participant": "앉아서"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 593,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "기도",
+          "participants": "",
+          "participant": "기도자"
+        },
+        {
+          "label": "성경봉독",
+          "reference": "애 3:19-25",
+          "verses": [
+            {
+              "reference": "예레미야애가 3:19",
+              "book": "예",
+              "chapter": 3,
+              "verse": 19,
+              "content": "내 고초와 재난 곧 쑥과 담즙을 기억하소서"
+            },
+            {
+              "reference": "예레미야애가 3:20",
+              "book": "예",
+              "chapter": 3,
+              "verse": 20,
+              "content": "내 마음이 그것을 기억하고 내가 낙심이 되오나"
+            },
+            {
+              "reference": "예레미야애가 3:21",
+              "book": "예",
+              "chapter": 3,
+              "verse": 21,
+              "content": "이것을 내가 내 마음에 담아 두었더니 그것이 오히려 나의 소망이 되었사옴은"
+            },
+            {
+              "reference": "예레미야애가 3:22",
+              "book": "예",
+              "chapter": 3,
+              "verse": 22,
+              "content": "여호와의 인자와 긍휼이 무궁하시므로 우리가 진멸되지 아니함이니이다"
+            },
+            {
+              "reference": "예레미야애가 3:23",
+              "book": "예",
+              "chapter": 3,
+              "verse": 23,
+              "content": "이것들이 아침마다 새로우니 주의 성실하심이 크시도소이다"
+            },
+            {
+              "reference": "예레미야애가 3:24",
+              "book": "예",
+              "chapter": 3,
+              "verse": 24,
+              "content": "내 심령에 이르기를 여호와는 나의 기업이시니 그러므로 내가 그를 바라리라 하도다"
+            },
+            {
+              "reference": "예레미야애가 3:25",
+              "book": "예",
+              "chapter": 3,
+              "verse": 25,
+              "content": "기다리는 자들에게나 구하는 영혼들에게 여호와는 선하시도다"
+            }
+          ],
+          "participant": "인도자"
+        },
+        {
+          "label": "찬양",
+          "items": [
+            "하나님께 감사하라 - F. Mendelssohn 호산나",
+            "하나님께 감사하라 - F. Mendelssohn 시온",
+            "추수 찬송 - Arr. R. E. Gerig 할렐루야",
+            "추수 감사의 노래 - 이기경 에벤에셀"
+          ],
+          "participant": "찬양대"
+        },
+        {
+          "label": "말씀",
+          "title": "당연함이라는 기적",
+          "preacher": "예배인도 김경진 목사",
+          "participant": "설교자"
+        },
+        {
+          "label": "기도",
+          "participant": "설교자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 301,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "헌금",
+          "hymn": {
+            "number": 630,
+            "title": "",
+            "image": "assets/hymns/630.jpg",
+            "verifiedTitle": "",
+            "verificationStatus": "MATCH"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "헌금기도",
+          "participant": "인도자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 592,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
+          },
+          "note": "끝절은 일어서서",
+          "participant": "다같이"
+        },
+        {
+          "label": "축도",
+          "participant": "설교자"
+        },
+        {
+          "label": "송영",
+          "participant": "찬양대"
+        }
+      ],
+      "timeOverrides": {
+        "07:30": {
+          "prayer": "",
+          "praise": [
+            "하나님께 감사하라 - F. Mendelssohn 호산나"
+          ]
+        },
+        "09:30": {
+          "prayer": "",
+          "praise": [
+            "하나님께 감사하라 - F. Mendelssohn 시온"
+          ]
+        },
+        "11:30": {
+          "prayer": "",
+          "praise": [
+            "추수 찬송 - Arr. R. E. Gerig 할렐루야"
+          ]
+        },
+        "13:30": {
+          "prayer": "",
+          "praise": [
+            "추수 감사의 노래 - 이기경 에벤에셀"
+          ]
+        },
+        "15:30": {
+          "prayer": "",
+          "praise": []
+        }
+      }
+    }
+  ],
+  "nextWeekPrayer": "박동식 목사 · 지대영 · 최병겸 · 최승인 · 양인재 장로"
+}
