@@ -122,19 +122,19 @@
         },
         {
           "label": "성경봉독",
-          "reference": "마태오 5:6",
+          "reference": "마 5:6",
           "verses": [],
           "participant": "인도자",
           "timeVariants": [
             {
-              "reference": "마태오 5:6",
+              "reference": "마 5:6",
               "verses": [
                 {
-                  "reference": "마태오 5:6",
-                  "book": "마태오",
+                  "reference": "마 5:6",
+                  "book": "마",
                   "chapter": 5,
                   "verse": 6,
-                  "content": "의를 위하여 주리고 목마른 자들은 복이 있나니 그들이 배부를 것이요"
+                  "content": "의를 위하여 주리고 목마른 자는 복이 있나니 그들이 배부를 것임이요"
                 }
               ]
             }
