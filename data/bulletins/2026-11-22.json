@@ -31,10 +31,10 @@
           "label": "찬송",
           "hymn": {
             "number": 68,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "오 하나님 우리의 창조주시니",
+            "image": "assets/hymns/068.jpg",
+            "verifiedTitle": "오 하나님 우리의 창조주시니",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -108,10 +108,10 @@
           "label": "찬송",
           "hymn": {
             "number": 286,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "주 예수님 내 맘에 오사",
+            "image": "assets/hymns/286.jpg",
+            "verifiedTitle": "주 예수님 내 맘에 오사",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -122,9 +122,23 @@
         },
         {
           "label": "성경봉독",
-          "reference": "",
+          "reference": "마태오 5:6",
           "verses": [],
-          "participant": "인도자"
+          "participant": "인도자",
+          "timeVariants": [
+            {
+              "reference": "마태오 5:6",
+              "verses": [
+                {
+                  "reference": "마태오 5:6",
+                  "book": "마태오",
+                  "chapter": 5,
+                  "verse": 6,
+                  "content": "의를 위하여 주리고 목마른 자들은 복이 있나니 그들이 배부를 것이요"
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "찬양",
@@ -149,10 +163,10 @@
           "label": "찬송",
           "hymn": {
             "number": 539,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "너 예수께 조용히 나가",
+            "image": "assets/hymns/539.jpg",
+            "verifiedTitle": "너 예수께 조용히 나가",
+            "verificationStatus": "MATCH"
           },
           "participant": "다같이"
         },
@@ -160,9 +174,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "",
+            "title": "진리와 생명 되신 주",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "",
+            "verifiedTitle": "진리와 생명 되신 주",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -175,10 +189,10 @@
           "label": "찬송",
           "hymn": {
             "number": 92,
-            "title": "",
-            "image": "",
-            "verifiedTitle": "",
-            "verificationStatus": "MISSING"
+            "title": "위에 계신 나의 친구",
+            "image": "assets/hymns/092.jpg",
+            "verifiedTitle": "위에 계신 나의 친구",
+            "verificationStatus": "MATCH"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
