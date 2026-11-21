@@ -1,7 +1,7 @@
 {
-  "issueDate": "2026-11-15",
-  "bulletinNumber": 2566,
-  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215882&pageid=1&action=kboard_file_download&kboard-file-download-nonce=77ffa7a680&file=file1",
+  "issueDate": "2026-11-22",
+  "bulletinNumber": 2567,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215906&pageid=1&action=kboard_file_download&kboard-file-download-nonce=c7f7c786b6&file=file1",
   "page": 1,
   "services": [
     {
@@ -30,11 +30,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 590,
+            "number": 68,
             "title": "",
-            "image": "assets/hymns/590.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -53,65 +53,65 @@
         },
         {
           "label": "성시교독",
-          "number": 105,
-          "reference": "감사절",
+          "number": 86,
+          "reference": "요한계시록 14장",
           "reading": {
             "lines": [
               {
                 "speaker": "leader",
-                "text": "여호와께 감사하라 그는 선하시며"
+                "text": "또 내가 보니 보라 어린 양이 시온 산에 섰고 그와 함께 십사만 사천이 서 있는데"
               },
               {
                 "speaker": "congregation",
-                "text": "그 인자하심이 영원함이로다"
+                "text": "그들의 이마에는 어린 양의 이름과 그 아버지의 이름을 쓴 것이 있더라"
               },
               {
                 "speaker": "leader",
-                "text": "여호와께 감사하고 그의 이름을 불러 아뢰며"
+                "text": "내가 하늘에서 나는 소리를 들으니 많은 물 소리와도 같고 큰 우렛소리와도 같은데"
               },
               {
                 "speaker": "congregation",
-                "text": "그가 하는 일을 만민 중에 알게 할지어다"
+                "text": "내가 들은 소리는 거문고 타는 자들이 그 거문고를 타는 것 같더라"
               },
               {
                 "speaker": "leader",
-                "text": "그들이 광야 사막 길에서 방황하며 거주할 성읍을 찾지 못하고"
+                "text": "그들이 보좌 앞에 네 생물과 장로들 앞에서 새 노래를 부르니"
               },
               {
                 "speaker": "congregation",
-                "text": "주리고 목이 말라 그들의 영혼이 그들 안에서 피곤하였도다"
+                "text": "땅에서 속량함을 받은 십사만 사천 밖에는 능히 이 노래를 배울 자가 없더라"
               },
               {
                 "speaker": "leader",
-                "text": "이에 그들이 근심 중에 여호와께 부르짖으매"
+                "text": "이 사람들은 여자와 더불어 더럽히지 아니하고 순결한 자라"
               },
               {
                 "speaker": "congregation",
-                "text": "그들의 고통에서 건지시고 또 바른 길로 인도하사 거주할 성읍에 이르게 하셨도다"
+                "text": "어린 양이 어디로 인도하든지 따라가는 자며"
               },
               {
                 "speaker": "leader",
-                "text": "여호와의 인자하심과 인생에게 행하신 기적으로 말미암아 그를 찬송할지로다"
+                "text": "사람 가운데에서 속량함을 받아 처음 익은 열매로 하나님과 어린 양에게 속한 자들이니"
               },
               {
                 "speaker": "congregation",
-                "text": "그가 사모하는 영혼에게 만족을 주시며 주린 영혼에게 좋은 것으로 채워주심이로다"
+                "text": "그 입에 거짓말이 없고 흠이 없는 자들이더라"
               }
             ],
-            "number": 105,
-            "reference": "시 107:4-9",
-            "title": "감사절(1)"
+            "number": 86,
+            "reference": "1-5",
+            "title": "요한계시록 14장"
           },
           "participant": "앉아서"
         },
         {
           "label": "찬송",
           "hymn": {
-            "number": 593,
+            "number": 286,
             "title": "",
-            "image": "assets/hymns/593.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -122,73 +122,22 @@
         },
         {
           "label": "성경봉독",
-          "reference": "애 3:19-25",
-          "verses": [
-            {
-              "reference": "예레미야애가 3:19",
-              "book": "예",
-              "chapter": 3,
-              "verse": 19,
-              "content": "내 고초와 재난 곧 쑥과 담즙을 기억하소서"
-            },
-            {
-              "reference": "예레미야애가 3:20",
-              "book": "예",
-              "chapter": 3,
-              "verse": 20,
-              "content": "내 마음이 그것을 기억하고 내가 낙심이 되오나"
-            },
-            {
-              "reference": "예레미야애가 3:21",
-              "book": "예",
-              "chapter": 3,
-              "verse": 21,
-              "content": "이것을 내가 내 마음에 담아 두었더니 그것이 오히려 나의 소망이 되었사옴은"
-            },
-            {
-              "reference": "예레미야애가 3:22",
-              "book": "예",
-              "chapter": 3,
-              "verse": 22,
-              "content": "여호와의 인자와 긍휼이 무궁하시므로 우리가 진멸되지 아니함이니이다"
-            },
-            {
-              "reference": "예레미야애가 3:23",
-              "book": "예",
-              "chapter": 3,
-              "verse": 23,
-              "content": "이것들이 아침마다 새로우니 주의 성실하심이 크시도소이다"
-            },
-            {
-              "reference": "예레미야애가 3:24",
-              "book": "예",
-              "chapter": 3,
-              "verse": 24,
-              "content": "내 심령에 이르기를 여호와는 나의 기업이시니 그러므로 내가 그를 바라리라 하도다"
-            },
-            {
-              "reference": "예레미야애가 3:25",
-              "book": "예",
-              "chapter": 3,
-              "verse": 25,
-              "content": "기다리는 자들에게나 구하는 영혼들에게 여호와는 선하시도다"
-            }
-          ],
+          "reference": "",
+          "verses": [],
           "participant": "인도자"
         },
         {
           "label": "찬양",
           "items": [
-            "하나님께 감사하라 - F. Mendelssohn 호산나",
-            "하나님께 감사하라 - F. Mendelssohn 시온",
-            "추수 찬송 - Arr. R. E. Gerig 할렐루야",
-            "추수 감사의 노래 - 이기경 에벤에셀"
+            "주 우리 하나님 - Arr. Roland Diggle 베다니",
+            "주 찬양해 - Arr. B. B. McKinney 할렐루야",
+            "여호와는 나의 목자시니 - 김바하 에벤에셀"
           ],
           "participant": "찬양대"
         },
         {
           "label": "말씀",
-          "title": "당연함이라는 기적",
+          "title": "의에 주린 자, 배부르리라",
           "preacher": "예배인도 김경진 목사",
           "participant": "설교자"
         },
@@ -199,11 +148,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 301,
+            "number": 539,
             "title": "",
-            "image": "assets/hymns/301.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -225,11 +174,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 592,
+            "number": 92,
             "title": "",
-            "image": "assets/hymns/592.jpg",
+            "image": "",
             "verifiedTitle": "",
-            "verificationStatus": "MATCH"
+            "verificationStatus": "MISSING"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
@@ -245,32 +194,33 @@
       ],
       "timeOverrides": {
         "07:30": {
+          "prayer": "",
           "praise": [
-            "찬양하세 오 예루살렘 - J. H. Maunder 베다니"
+            "주 우리 하나님 - Arr. Roland Diggle 베다니"
           ]
         },
         "09:30": {
+          "prayer": "",
           "praise": [
-            "하나님께 감사하라 - F. Mendelssohn 호산나"
+            "주 찬양해 - Arr. B. B. McKinney 할렐루야"
           ]
         },
         "11:30": {
+          "prayer": "",
           "praise": [
-            "하나님께 감사하라 - F. Mendelssohn 시온"
+            "여호와는 나의 목자시니 - 김바하 에벤에셀"
           ]
         },
         "13:30": {
-          "praise": [
-            "추수 찬송 - Arr. R. E. Gerig 할렐루야"
-          ]
+          "prayer": "",
+          "praise": []
         },
         "15:30": {
-          "praise": [
-            "추수 감사의 노래 - 이기경 에벤에셀"
-          ]
+          "prayer": "",
+          "praise": []
         }
       }
     }
   ],
-  "nextWeekPrayer": "박동식 목사 · 지대영 · 최병겸 · 최승인 · 양인재 장로"
+  "nextWeekPrayer": "하규수 장로 · 심상현 목사 · 한정 · 이범로 장로 · 윤재원 Bridge3040 교구장"
 }
