@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-2026-09-20 주보 데이터 보강 스크립트
+2026-11-11 주보 데이터 보강 스크립트
 1) 찬송가 제목/이미지: hymn-search 참조
 2) 성시교독 81번: responsive_readings_1-137.json 참조
 3) 성경봉독 5부: work/bible/bible.py 이용
@@ -137,8 +137,8 @@ def fix_bible_verses(bulletin_data):
 
 
 def main():
-    log("=== 2026-09-20 주보 데이터 보강 시작 ===")
-    bulletin_path = BULLETINS_DIR / "2026-09-20.json"
+    log("=== 2026-11-11 주보 데이터 보강 시작 ===")
+    bulletin_path = BULLETINS_DIR / "2026-11-11.json"
     bulletin_data = load_json(bulletin_path)
 
     bulletin_data = fix_hymns(bulletin_data)
