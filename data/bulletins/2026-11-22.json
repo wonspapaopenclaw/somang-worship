@@ -215,29 +215,29 @@
       ],
       "timeOverrides": {
         "07:30": {
-          "prayer": "",
+          "prayer": "박동식 목사",
           "praise": [
             "주 우리 하나님 - Arr. Roland Diggle 베다니"
           ]
         },
         "09:30": {
-          "prayer": "",
+          "prayer": "지대영",
           "praise": [
             "주 찬양해 - Arr. B. B. McKinney 할렐루야"
           ]
         },
         "11:30": {
-          "prayer": "",
+          "prayer": "최병겸",
           "praise": [
             "여호와는 나의 목자시니 - 김바하 에벤에셀"
           ]
         },
         "13:30": {
-          "prayer": "",
+          "prayer": "최승인",
           "praise": []
         },
         "15:30": {
-          "prayer": "",
+          "prayer": "양인재 장로",
           "praise": []
         }
       }
