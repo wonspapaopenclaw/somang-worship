@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 import requests
 import fitz
-import easyocr
 import json
 import re
 import os
 from pathlib import Path
 from datetime import datetime
 from bs4 import BeautifulSoup
+try:
+    import easyocr
+    EASYOCR_AVAILABLE = True
+except ImportError:
+    EASYOCR_AVAILABLE = False
 
 BASE_DIR = Path(".")
 DATA_DIR = BASE_DIR / "data"
@@ -95,15 +99,4 @@ if __name__ == "__main__":
     img_path = BASE_DIR / f"temp_{issue_date}_page1.png"
     pdf_to_image(pdf_path, img_path, dpi=300)
     
-    text = easyocr_extract(img_path)
-    
-    tmp_dir = Path("/c/Users/chajh/Documents/Codex/2026-09-06/referenced-chatgpt-conversation-this-is-an/work/tmp")
-    text_path = tmp_dir / f"extracted_{issue_date.replace('-', '')}.txt"
-    save_text(text, text_path)
-    
-    log(f"\n=== 추출 텍스트 미리보기 ===")
-    print(text[:1500])
-    
-    os.unlink(pdf_path)
-    os.unlink(img_path)
-    log("임시 파일 삭제 완료")
+    # LM Studio가 활성화된 경우 먼저 시도 (기본 방법), 실패 시 EasyOCR 폴백    if LM_STUDIO_ENABLED:        log("LM Studio OCR 시도 (기본 방법)...")        with open(img_path, "rb") as f:            img_b64 = base64.b64encode(f.read()).decode()        text = extract_bulletin_from_image(img_b64, issue_date, info["bulletin_number"], info["pdf_url"])        if not text:            log("LM Studio OCR 실패, EasyOCR으로 폴백...")            text = easyocr_extract(img_path)    else:        text = easyocr_extract(img_path)    tmp_dir = Path("/c/Users/chajh/Documents/Codex/2026-09-06/referenced-chatgpt-conversation-this-is-an/work/tmp")    text_path = tmp_dir / f"extracted_{issue_date.replace('-', '')}.txt"    save_text(text, text_path)    log(f"=== 추출 텍스트 미리보기 ===")    print(text[:1500])    os.unlink(pdf_path)    os.unlink(img_path)    log("임시 파일 삭제 완료")
