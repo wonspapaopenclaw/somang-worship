@@ -1,0 +1,272 @@
+{
+  "issueDate": "2026-11-29",
+  "bulletinNumber": 5322026,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215945&pageid=1&action=kboard_file_download&kboard-file-download-nonce=b54adbbc3e&file=file1",
+  "page": 1,
+  "services": [
+    {
+      "name": "주일예배",
+      "times": [
+        "07:30",
+        "09:30",
+        "11:30",
+        "13:30",
+        "15:30"
+      ],
+      "leader": "",
+      "order": [
+        {
+          "label": "예배로 부름",
+          "participant": "인도자"
+        },
+        {
+          "label": "송영",
+          "participant": "찬양대"
+        },
+        {
+          "label": "기원",
+          "participant": "인도자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 25,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "참회기도",
+          "participant": "다같이"
+        },
+        {
+          "label": "사죄확인",
+          "participant": "인도자"
+        },
+        {
+          "label": "신앙고백",
+          "name": "사도신경",
+          "participant": "다같이"
+        },
+        {
+          "label": "성시교독",
+          "number": 115,
+          "reference": "구주 강림(1",
+          "reading": {
+            "lines": [
+              {
+                "speaker": "leader",
+                "text": "성문으로 나아가라 나아가라 백성이 올 길을 닦으라"
+              },
+              {
+                "speaker": "congregation",
+                "text": "큰 길을 수축하고 수축하라 돌을 제하라 만민을 위하여 기치를 들라"
+              },
+              {
+                "speaker": "leader",
+                "text": "여호와께서 땅 끝까지 선포하시되 너희는 딸 시온에게 이르라 보라 네 구원이 이르렀느니라"
+              },
+              {
+                "speaker": "congregation",
+                "text": "보라 상급이 그에게 있고 보응이 그 앞에 있느니라 하셨느니라"
+              },
+              {
+                "speaker": "leader",
+                "text": "사람들이 너를 일컬어 거룩한 백성이라 여호와께서 구속하신 자라 하겠고"
+              },
+              {
+                "speaker": "congregation",
+                "text": "또 너를 일컬어 찾은 바 된 자요 버림 받지 아니한 성읍이라 하리라"
+              },
+              {
+                "speaker": "leader",
+                "text": "선지자 이사야의 책에 쓴 바 광야에서 외치는 자의 소리가 있어 이르되"
+              },
+              {
+                "speaker": "congregation",
+                "text": "너희는 주의 길을 준비하라 그의 오실 길을 곧게 하라"
+              },
+              {
+                "speaker": "leader",
+                "text": "모든 골짜기가 메워지고 모든 산과 작은 산이 낮아지고"
+              },
+              {
+                "speaker": "congregation",
+                "text": "굽은 것이 곧아지고 험한 길이 평탄하여질 것이요"
+              },
+              {
+                "speaker": "all",
+                "text": "모든 육체가 하나님의 구원하심을 볼리라 함과 같으니라"
+              }
+            ],
+            "number": 115,
+            "reference": "눅 3:4-6",
+            "title": "구주 강림(1)"
+          },
+          "participant": "앉아서"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 528,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "기도",
+          "participants": "",
+          "participant": "기도자"
+        },
+        {
+          "label": "성경봉독",
+          "reference": "누가복음 15:20-24",
+          "verses": [
+            {
+              "reference": "누가복음 15:20",
+              "book": "누",
+              "chapter": 15,
+              "verse": 20,
+              "content": "이에 일어나서 아버지께로 돌아가니라 아직도 거리가 먼데 아버지가 그를 보고 측은히 여겨 달려가 목을 안고 입을 맞추니"
+            },
+            {
+              "reference": "누가복음 15:21",
+              "book": "누",
+              "chapter": 15,
+              "verse": 21,
+              "content": "아들이 이르되 아버지 내가 하늘과 아버지께 죄를 지었사오니 지금부터는 아버지의 아들이라 일컬음을 감당하지 못하겠나이다 하나"
+            },
+            {
+              "reference": "누가복음 15:22",
+              "book": "누",
+              "chapter": 15,
+              "verse": 22,
+              "content": "아버지는 종들에게 이르되 제일 좋은 옷을 내어다가 입히고 손에 가락지를 끼우고 발에 신을 신기라"
+            },
+            {
+              "reference": "누가복음 15:23",
+              "book": "누",
+              "chapter": 15,
+              "verse": 23,
+              "content": "그리고 살진 송아지를 끌어다가 잡으라 우리가 먹고 즐기자"
+            },
+            {
+              "reference": "누가복음 15:24",
+              "book": "누",
+              "chapter": 15,
+              "verse": 24,
+              "content": "이 내 아들은 죽었다가 다시 살아났으며 내가 잃었다가 다시 얻었노라 하니 그들이 즐거워하더라"
+            }
+          ],
+          "participant": "인도자"
+        },
+        {
+          "label": "찬양",
+          "items": [
+            "문들아네 머리를 들라 - Arr. W. Lawrence Curry   베다니",
+            "주의영광 - G. F. Handel   호산나",
+            "온세상이여, 기뻐하라! - Joseph M. Martin   시온",
+            "오랫동안 기다리던 - Arr. 정은정   할렐루야",
+            "오소서, 임마누엘 - Pepper Choplin   에벤에셀"
+          ],
+          "participant": "찬양대"
+        },
+        {
+          "label": "말씀",
+          "title": "기다리시는 아버지의 품   (1~4부)김경진목사   (5부)심상현목사",
+          "preacher": "",
+          "participant": "설교자"
+        },
+        {
+          "label": "기도",
+          "participant": "설교자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 527,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "헌금",
+          "hymn": {
+            "number": 630,
+            "title": "",
+            "image": "assets/hymns/630.jpg",
+            "verifiedTitle": "",
+            "verificationStatus": "MATCH"
+          },
+          "participant": "다같이"
+        },
+        {
+          "label": "헌금기도",
+          "participant": "인도자"
+        },
+        {
+          "label": "찬송",
+          "hymn": {
+            "number": 310,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
+          },
+          "note": "끝절은 일어서서",
+          "participant": "다같이"
+        },
+        {
+          "label": "축도",
+          "participant": "설교자"
+        },
+        {
+          "label": "송영",
+          "participant": "찬양대"
+        }
+      ],
+      "timeOverrides": {
+        "07:30": {
+          "prayer": "",
+          "praise": [
+            "문들아네 머리를 들라 - Arr. W. Lawrence Curry   베다니"
+          ]
+        },
+        "09:30": {
+          "prayer": "",
+          "praise": [
+            "주의영광 - G. F. Handel   호산나"
+          ]
+        },
+        "11:30": {
+          "prayer": "",
+          "praise": [
+            "온세상이여, 기뻐하라! - Joseph M. Martin   시온"
+          ]
+        },
+        "13:30": {
+          "prayer": "",
+          "praise": [
+            "오랫동안 기다리던 - Arr. 정은정   할렐루야"
+          ]
+        },
+        "15:30": {
+          "prayer": "",
+          "praise": [
+            "오소서, 임마누엘 - Pepper Choplin   에벤에셀"
+          ]
+        }
+      }
+    }
+  ],
+  "nextWeekPrayer": "이우식 · 김명규 장로 · 나성한 목사 · 김규태 장로 · 박승수 Bridge3040 부감"
+}

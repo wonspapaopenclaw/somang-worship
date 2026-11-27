@@ -1,7 +1,7 @@
 {
-  "issueDate": "2026-11-22",
-  "bulletinNumber": 2567,
-  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215906&pageid=1&action=kboard_file_download&kboard-file-download-nonce=c7f7c786b6&file=file1",
+  "issueDate": "2026-11-29",
+  "bulletinNumber": 5322026,
+  "sourcePdf": "https://somang.net/worship/info/jubo/?uid=215945&pageid=1&action=kboard_file_download&kboard-file-download-nonce=b54adbbc3e&file=file1",
   "page": 1,
   "services": [
     {
@@ -13,7 +13,7 @@
         "13:30",
         "15:30"
       ],
-      "leader": "예배인도 김경진 목사",
+      "leader": "",
       "order": [
         {
           "label": "예배로 부름",
@@ -30,11 +30,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 68,
-            "title": "오 하나님 우리의 창조주시니",
-            "image": "assets/hymns/068.jpg",
-            "verifiedTitle": "오 하나님 우리의 창조주시니",
-            "verificationStatus": "MATCH"
+            "number": 25,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -53,65 +53,69 @@
         },
         {
           "label": "성시교독",
-          "number": 86,
-          "reference": "요한계시록 14장",
+          "number": 115,
+          "reference": "구주 강림(1",
           "reading": {
             "lines": [
               {
                 "speaker": "leader",
-                "text": "또 내가 보니 보라 어린 양이 시온 산에 섰고 그와 함께 십사만 사천이 서 있는데"
+                "text": "성문으로 나아가라 나아가라 백성이 올 길을 닦으라"
               },
               {
                 "speaker": "congregation",
-                "text": "그들의 이마에는 어린 양의 이름과 그 아버지의 이름을 쓴 것이 있더라"
+                "text": "큰 길을 수축하고 수축하라 돌을 제하라 만민을 위하여 기치를 들라"
               },
               {
                 "speaker": "leader",
-                "text": "내가 하늘에서 나는 소리를 들으니 많은 물 소리와도 같고 큰 우렛소리와도 같은데"
+                "text": "여호와께서 땅 끝까지 선포하시되 너희는 딸 시온에게 이르라 보라 네 구원이 이르렀느니라"
               },
               {
                 "speaker": "congregation",
-                "text": "내가 들은 소리는 거문고 타는 자들이 그 거문고를 타는 것 같더라"
+                "text": "보라 상급이 그에게 있고 보응이 그 앞에 있느니라 하셨느니라"
               },
               {
                 "speaker": "leader",
-                "text": "그들이 보좌 앞에 네 생물과 장로들 앞에서 새 노래를 부르니"
+                "text": "사람들이 너를 일컬어 거룩한 백성이라 여호와께서 구속하신 자라 하겠고"
               },
               {
                 "speaker": "congregation",
-                "text": "땅에서 속량함을 받은 십사만 사천 밖에는 능히 이 노래를 배울 자가 없더라"
+                "text": "또 너를 일컬어 찾은 바 된 자요 버림 받지 아니한 성읍이라 하리라"
               },
               {
                 "speaker": "leader",
-                "text": "이 사람들은 여자와 더불어 더럽히지 아니하고 순결한 자라"
+                "text": "선지자 이사야의 책에 쓴 바 광야에서 외치는 자의 소리가 있어 이르되"
               },
               {
                 "speaker": "congregation",
-                "text": "어린 양이 어디로 인도하든지 따라가는 자며"
+                "text": "너희는 주의 길을 준비하라 그의 오실 길을 곧게 하라"
               },
               {
                 "speaker": "leader",
-                "text": "사람 가운데에서 속량함을 받아 처음 익은 열매로 하나님과 어린 양에게 속한 자들이니"
+                "text": "모든 골짜기가 메워지고 모든 산과 작은 산이 낮아지고"
               },
               {
                 "speaker": "congregation",
-                "text": "그 입에 거짓말이 없고 흠이 없는 자들이더라"
+                "text": "굽은 것이 곧아지고 험한 길이 평탄하여질 것이요"
+              },
+              {
+                "speaker": "all",
+                "text": "모든 육체가 하나님의 구원하심을 볼리라 함과 같으니라"
               }
             ],
-            "number": 86,
-            "reference": "1-5",
-            "title": "요한계시록 14장"
+            "number": 115,
+            "reference": "눅 3:4-6",
+            "title": "구주 강림(1)"
           },
           "participant": "앉아서"
         },
         {
           "label": "찬송",
           "hymn": {
-            "number": 286,
-            "title": "주 예수님 내 맘에 오사",
-            "image": "assets/hymns/286.jpg",
-            "verifiedTitle": "주 예수님 내 맘에 오사",
-            "verificationStatus": "MATCH"
+            "number": 528,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -122,46 +126,61 @@
         },
         {
           "label": "성경봉독",
-          "reference": "마 5:6",
-          "verses": [],
-          "participant": "인도자",
-          "timeVariants": [
+          "reference": "누가복음 15:20-24",
+          "verses": [
             {
-              "reference": "마 5:6",
-              "verses": [
-                {
-                  "reference": "마 5:6",
-                  "book": "마",
-                  "chapter": 5,
-                  "verse": 6,
-                  "content": "의를 위하여 주리고 목마른 자는 복이 있나니 그들이 배부를 것임이요"
-                }
-              ]
+              "reference": "누가복음 15:20",
+              "book": "누",
+              "chapter": 15,
+              "verse": 20,
+              "content": "이에 일어나서 아버지께로 돌아가니라 아직도 거리가 먼데 아버지가 그를 보고 측은히 여겨 달려가 목을 안고 입을 맞추니"
+            },
+            {
+              "reference": "누가복음 15:21",
+              "book": "누",
+              "chapter": 15,
+              "verse": 21,
+              "content": "아들이 이르되 아버지 내가 하늘과 아버지께 죄를 지었사오니 지금부터는 아버지의 아들이라 일컬음을 감당하지 못하겠나이다 하나"
+            },
+            {
+              "reference": "누가복음 15:22",
+              "book": "누",
+              "chapter": 15,
+              "verse": 22,
+              "content": "아버지는 종들에게 이르되 제일 좋은 옷을 내어다가 입히고 손에 가락지를 끼우고 발에 신을 신기라"
+            },
+            {
+              "reference": "누가복음 15:23",
+              "book": "누",
+              "chapter": 15,
+              "verse": 23,
+              "content": "그리고 살진 송아지를 끌어다가 잡으라 우리가 먹고 즐기자"
+            },
+            {
+              "reference": "누가복음 15:24",
+              "book": "누",
+              "chapter": 15,
+              "verse": 24,
+              "content": "이 내 아들은 죽었다가 다시 살아났으며 내가 잃었다가 다시 얻었노라 하니 그들이 즐거워하더라"
             }
           ],
-          "prayerParticipants": [
-            "하규수 장로",
-            "심상현 목사",
-            "한정",
-            "이범로 장로",
-            "윤재원 Bridge3040 교구장"
-          ]
+          "participant": "인도자"
         },
         {
           "label": "찬양",
           "items": [
-            "주 우리 하나님 - Arr. Roland Diggle 베다니",
-            "찬양의 축제로의 초대 - Joseph M. Martin 호산나",
-            "찬양의 왈츠 - Arr. 김바하 시온",
-            "주 찬양해 - Arr. B. B. McKinney 할렐루야",
-            "여호와는 나의 목자시니 - 김바하 에벤에셀"
+            "문들아네 머리를 들라 - Arr. W. Lawrence Curry   베다니",
+            "주의영광 - G. F. Handel   호산나",
+            "온세상이여, 기뻐하라! - Joseph M. Martin   시온",
+            "오랫동안 기다리던 - Arr. 정은정   할렐루야",
+            "오소서, 임마누엘 - Pepper Choplin   에벤에셀"
           ],
           "participant": "찬양대"
         },
         {
           "label": "말씀",
-          "title": "의에 주린 자, 배부르리라",
-          "preacher": "예배인도 김경진 목사",
+          "title": "기다리시는 아버지의 품   (1~4부)김경진목사   (5부)심상현목사",
+          "preacher": "",
           "participant": "설교자"
         },
         {
@@ -171,11 +190,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 539,
-            "title": "너 예수께 조용히 나가",
-            "image": "assets/hymns/539.jpg",
-            "verifiedTitle": "너 예수께 조용히 나가",
-            "verificationStatus": "MATCH"
+            "number": 527,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
           },
           "participant": "다같이"
         },
@@ -183,9 +202,9 @@
           "label": "헌금",
           "hymn": {
             "number": 630,
-            "title": "진리와 생명 되신 주",
+            "title": "",
             "image": "assets/hymns/630.jpg",
-            "verifiedTitle": "진리와 생명 되신 주",
+            "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
           "participant": "다같이"
@@ -197,11 +216,11 @@
         {
           "label": "찬송",
           "hymn": {
-            "number": 92,
-            "title": "위에 계신 나의 친구",
-            "image": "assets/hymns/092.jpg",
-            "verifiedTitle": "위에 계신 나의 친구",
-            "verificationStatus": "MATCH"
+            "number": 310,
+            "title": "",
+            "image": "",
+            "verifiedTitle": "",
+            "verificationStatus": "MISSING"
           },
           "note": "끝절은 일어서서",
           "participant": "다같이"
@@ -217,33 +236,37 @@
       ],
       "timeOverrides": {
         "07:30": {
-          "prayer": "박동식 목사",
+          "prayer": "",
           "praise": [
-            "주 우리 하나님 - Arr. Roland Diggle 베다니"
+            "문들아네 머리를 들라 - Arr. W. Lawrence Curry   베다니"
           ]
         },
         "09:30": {
-          "prayer": "지대영",
+          "prayer": "",
           "praise": [
-            "주 찬양해 - Arr. B. B. McKinney 할렐루야"
+            "주의영광 - G. F. Handel   호산나"
           ]
         },
         "11:30": {
-          "prayer": "최병겸",
+          "prayer": "",
           "praise": [
-            "찬양의 왈츠 - Arr. 김바하 시온"
+            "온세상이여, 기뻐하라! - Joseph M. Martin   시온"
           ]
         },
         "13:30": {
-          "prayer": "최승인",
-          "praise": []
+          "prayer": "",
+          "praise": [
+            "오랫동안 기다리던 - Arr. 정은정   할렐루야"
+          ]
         },
         "15:30": {
-          "prayer": "양인재 장로",
-          "praise": []
+          "prayer": "",
+          "praise": [
+            "오소서, 임마누엘 - Pepper Choplin   에벤에셀"
+          ]
         }
       }
     }
   ],
-  "nextWeekPrayer": "하규수 장로 · 심상현 목사 · 한정 · 이범로 장로 · 윤재원 Bridge3040 교구장"
+  "nextWeekPrayer": "이우식 · 김명규 장로 · 나성한 목사 · 김규태 장로 · 박승수 Bridge3040 부감"
 }
