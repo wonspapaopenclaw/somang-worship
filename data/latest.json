@@ -32,7 +32,7 @@
           "hymn": {
             "number": 25,
             "title": "",
-            "image": "",
+            "image": "assets\\hymns\\025.jpg",
             "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
@@ -68,7 +68,7 @@
           "hymn": {
             "number": 528,
             "title": "",
-            "image": "",
+            "image": "assets\\hymns\\528.jpg",
             "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
@@ -146,7 +146,7 @@
           "hymn": {
             "number": 527,
             "title": "",
-            "image": "",
+            "image": "assets\\hymns\\527.jpg",
             "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
@@ -172,7 +172,7 @@
           "hymn": {
             "number": 310,
             "title": "",
-            "image": "",
+            "image": "assets\\hymns\\310.jpg",
             "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
