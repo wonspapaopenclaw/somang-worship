@@ -32,7 +32,7 @@
           "hymn": {
             "number": 25,
             "title": "면류관 벗어서",
-            "image": "",
+            "image": "assets\\hymns\\025.jpg",
             "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
@@ -68,7 +68,7 @@
           "hymn": {
             "number": 528,
             "title": "예수가 우리를 부르는 소리",
-            "image": "",
+            "image": "assets\\hymns\\528.jpg",
             "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
@@ -146,7 +146,7 @@
           "hymn": {
             "number": 527,
             "title": "어서 돌아오오",
-            "image": "",
+            "image": "assets\\hymns\\527.jpg",
             "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },
@@ -172,7 +172,7 @@
           "hymn": {
             "number": 310,
             "title": "아 하나님의 은혜로",
-            "image": "",
+            "image": "assets\\hymns\\310.jpg",
             "verifiedTitle": "",
             "verificationStatus": "MATCH"
           },

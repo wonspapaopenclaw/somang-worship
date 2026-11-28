@@ -932,12 +932,6 @@ def main() -> int:
         info = get_latest_bulletin_info()
         issue_date = info["issue_date"]
 
-        if LATEST_JSON.exists():
-            with open(LATEST_JSON, "r", encoding="utf-8") as f:
-                existing = json.load(f)
-            if existing.get("issueDate") == issue_date:
-                log(f"이미 최신 주보({issue_date})가 저장되어 있습니다. 작업 중단.")
-                return 0
 
         pdf_path = BASE_DIR / f"temp_{issue_date}.pdf"
         temp_files.append(pdf_path)
